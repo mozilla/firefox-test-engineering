@@ -3,8 +3,7 @@ Development Process
 
 While the details vary, there is a general framework for the development
 process at Mozilla which describes how a change goes from an idea in someone's
-head to deployed code on a production webserver. This document attempts to
-describe that process.
+head to deployed code. This document attempts to describe that process.
 
 Filing a Bug
 ------------
@@ -20,8 +19,9 @@ choice for the project. A well-written bug includes:
   issue.
 
 Depending on the project, the bug may be triaged and assigned a priority and/or
-milestone, or it may be added to another system for tracking work, such as a
-kanban board.
+milestone, or it may be added to another system for tracking work, such as trello_.
+
+.. _trello: http://trello.com
 
 Working on the Bug
 ------------------
@@ -46,8 +46,7 @@ The process of fixing a bug involves:
 Git and Github
 ^^^^^^^^^^^^^^
 
-For projects using Git and Github (which is most Webdev projects), the process
-can be explained in more detail:
+For projects using Git and Github, the process can be explained in more detail:
 
 - On Github, ensure you have `forked the repository`_ for your project to your
   own account and have added it as a `remote`_ to your repository.
@@ -57,14 +56,15 @@ can be explained in more detail:
   branch off of it for your feature.
 - Once your work is committed and ready for review, `push the branch`_ to your
   fork on Github and `submit a pull request`_.
-- If you know who should review your change, add a comment to your pull request
-  with their ``@Username`` in it and ask for a review (often abbreviated as
-  ``r?``).
+- If the project uses bugzilla for issue tracking, `create an attachment
+  to your issue's bug pointing at the pull request`_. Otherwise, if
+  you know who should review your change, add a comment to your pull request
+  with their ``@Username`` in it and ask for a review.
 
 .. seealso::
 
    :doc:`/reference/glossary`
-      A glossary of specialized terms used within Webdev, including some
+      A glossary of specialized terms used within the A-team, including some
       abbreviations used for code review, such as ``r?``, ``r+``, and ``r-``.
 
    `Github Flow <https://guides.github.com/introduction/flow/>`_
@@ -75,14 +75,36 @@ can be explained in more detail:
 .. _remote: https://help.github.com/articles/about-remote-repositories
 .. _push the branch: https://help.github.com/articles/pushing-to-a-remote
 .. _submit a pull request: https://help.github.com/articles/using-pull-requests
+.. _create an attachment to your issue's bug pointing at the pull request: https://globau.wordpress.com/2013/10/21/github-pull-requests-and-bugzilla/
 
-Testing and Deployment
+
+Mercurial
+^^^^^^^^^
+
+For projects using Mercurial (for example, talos_ or mozbase_) the
+process looks like this:
+
+- Check out the source code of the project you want to contribute to
+  (most likely `mozilla-central`_).
+- Set up a `mercurial queue`_ for your set of changes (or
+  alternatively, use `mercurial bookmarks`_ to do the same thing).
+- Finish your work and commit the changes, then `submit them as a patch`_.
+
+.. _talos: https://wiki.mozilla.org/Buildbot/Talos
+.. _mozbase: https://wiki.mozilla.org/Auto-tools/Projects/MozBase
+.. _mozilla-central: https://developer.mozilla.org/en-US/docs/mozilla-central
+.. _mercurial queue: https://developer.mozilla.org/en-US/docs/Mercurial_Queues
+.. _mercurial bookmarks: http://mercurial.selenic.com/wiki/NamedBranches
+.. _submit them as a patch: https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/How_to_Submit_a_Patch#Submitting_the_patch
+
+Testing and Resolution
 ----------------------
 
-Once a change is merged into the codebase, it needs to be tested on an actual
-server and then deployed to production. Typically the lead developer on a
-project will handle this process and let you know if any effort on your end is
-required.
+Once a change is merged into the codebase, it needs to be tested in
+whatever environment it is going to be running in. You should do this
+yourself before submitting a patch, but typically a core project
+member will do some additional verification and let you know if any
+effort on your end is required.
 
 A bug is usually marked as resolved when it is merged into the codebase.
 Depending on the issue tracker being used, the bug may also be marked as

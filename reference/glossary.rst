@@ -1,7 +1,7 @@
 Glossary
 ========
 
-At Mozilla Webdev we use a lot of special terms that mean specific, non-obvious
+At Mozilla we use a lot of special terms that mean specific, non-obvious
 things to those who aren't familiar with them. This document attempts to
 define those terms.
 
@@ -17,13 +17,9 @@ define those terms.
       Abbreviation for a request to review a piece of code.
 
    r+
-      Abbreviation for passing a code review.
-
-   r+wc
-      Abbreviation for passing a code review *with changes*. This means there
-      was feedback on things to change during the review, but the requested
-      changes are so minor that a subsequent review is not necessary after
-      making them.
+      Abbreviation for passing a code review. In some cases, the r+ is
+      conditional on additional changes being made, but subsequent
+      review is not necessary after making them.
 
    r-
       Abbreviation for failing a code review. This usually means that more

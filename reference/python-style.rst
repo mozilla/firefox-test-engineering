@@ -1,8 +1,8 @@
 Python Style Guide
 ==================
 
-This document is a brief set of guidelines for writing Python code for Mozilla
-Webdev projects. Individual projects may override these rules; make sure you
+This document is a brief set of guidelines for writing Python code at
+Mozilla. Individual projects may override these rules; make sure you
 know the standards for your project!
 
 General Guidelines

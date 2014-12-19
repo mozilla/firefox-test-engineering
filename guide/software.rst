@@ -11,11 +11,13 @@ you'll most likely need regardless of the project you work on.
 Operating Systems: Windows, Linux, or OS X?
 -------------------------------------------
 
-Most of our sites are developed on Mac OS X or Linux, and deployed on servers
-running Linux. If you are a Windows user, you may want to use a program like
-`VirtualBox`_ to create a virtual machine running a Linux-based operating
-system. The rest of this guide assumes you are using an OS X or Linux-based
-operating system.
+Generally speaking, automation and test tools need to run on the
+platforms that are being tested. Linux and Mac are often used as
+development environments because the tooling is much more
+comprehensive. If you are a Windows user, you may want to use a
+program like `VirtualBox`_ to create a virtual machine running a
+Linux-based operating system. The rest of this guide assumes you are
+using an OS X or Linux-based operating system.
 
 If you are running Mac OS X, most of the software mentioned here can be
 installed using the `Homebrew`_ package manager.
@@ -47,11 +49,26 @@ same time and merge their changes together at the end.
 
 .. _Git: http://git-scm.com/
 
+Mercurial
+---------
+
+Mercurial_ is a version control system, similar to git. We use it to
+track the source code to Firefox itself, as well as much of the
+automated test infrastructure around it (mochitest, reftest, etc.).
+
+.. seealso::
+
+   `Mozilla's Guide to Mercurial <https://developer.mozilla.org/en-US/docs/Mercurial>`_
+     The MDN page on Mercurial, contains some useful links for getting
+     started.
+
+.. _Mercurial: http://mercurial.selenic.com
+
 Python
 ------
 
 Python_ is a programming language that many of our websites use for their
-backend code. Most of our Python-based sites are implemented using Django_,
+backend code. Many of our Python-based sites are implemented using Django_,
 a Python-based framework for making websites.
 
 Most of our Python-based sites are developed to run under Python 2, and most
@@ -65,29 +82,3 @@ of our servers run the sites on Python 2.
 
 .. _Python: https://www.python.org/
 .. _Django: https://www.djangoproject.com/
-
-Node.js
--------
-
-`Node.js`_ is a JavaScript-based runtime for building network applications,
-including websites. An increasing amount of Mozilla projects are being written
-as Node applications.
-
-.. seealso::
-
-   `nodejs.org Downloads <http://nodejs.org/download/>`_
-      The official Node.js download page, which includes installers for Windows
-      and Mac OS X.
-
-.. _Node.js: http://nodejs.org/
-
-Miscellaneous
--------------------
-
-The following is a list of software you probably need that don't merit a
-heading:
-
-- `GNU gettext`_: Used for localization support on many websites. Can usually
-  be installed via your package manager under the name ``gettext``.
-
-.. _GNU gettext: https://www.gnu.org/software/gettext/

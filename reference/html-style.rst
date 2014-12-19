@@ -1,9 +1,9 @@
 HTML Style Guide
 ================
 
-This document is a brief set of guidelines for writing HTML for Mozilla Webdev
-projects. Individual projects may override these rules; make sure you know the
-standards for your project!
+This document is a brief set of guidelines for writing HTML for
+web-based projects. Individual projects may override these rules; make
+sure you know the standards for your project!
 
 General Guidelines
 ------------------

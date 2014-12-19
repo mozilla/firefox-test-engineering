@@ -8,7 +8,7 @@ you create accounts on these websites.
 Github
 ------
 
-Most Webdev projects are hosted on Github_. Github provides hosting for our
+Many A-team projects are hosted on Github_. Github provides hosting for our
 source code, as well as tools we use for collaboration and code review. Github
 is based on git_, a distributed version control system that lets us track the
 changes we make to our code.
@@ -25,11 +25,33 @@ for guides on the basics of using git and Github.
 .. _git: http://git-scm.com/
 .. _Github help site: https://help.github.com/
 
+
+Mercurial and Mozilla-Central
+-----------------------------
+
+Much of our other build & test code lives inside `mozilla-central`_,
+a `mercurial`_ repository which also contains the source code to Firefox.
+
+To be able to commit to this repository directly, you will need to
+sign a contributor's and be vouched for by a module owner. You
+probably don't need to worry about this initially: just clone the
+repository manually, test your changes locally, and let other people
+push your patches for you.
+
+If you find that you're working on a lot of stuff within this
+code base, you'll want to apply for `committer access`_ so you can push
+code to try_ or an integration branch like mozilla-inbound.
+
+.. _mozilla-central: https://developer.mozilla.org/en-US/docs/mozilla-central
+.. _mercurial: http://mercurial.selenic.com
+.. _`committer access`: https://www.mozilla.org/en-US/about/governance/policies/commit/
+.. _try: https://wiki.mozilla.org/Build:TryServer
+
 Bugzilla
 --------
 
 Bugzilla_ is the issue-tracking system that the entire Mozilla Project uses.
-The vast majority of Webdev projects use Bugzilla to keep track of any planned
+The vast majority of A-team projects use Bugzilla to keep track of any planned
 changes or bugs with our websites.
 
 As a new contributor, Bugzilla is a useful tool for finding known issues that

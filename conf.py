@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Webdev Bootcamp documentation build configuration file, created by
+# A-team Bootcamp documentation build configuration file, created by
 # sphinx-quickstart on Thu May  5 14:21:14 2011.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Webdev Bootcamp'
+project = u'A-Team Bootcamp'
 copyright = u'Mozilla. This work is licensed under a Creative Commons Attribution 4.0 International License'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -171,7 +171,7 @@ todo_include_todos = True
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'WebdevBootcampdoc'
+htmlhelp_basename = 'AteamBootcampdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -185,8 +185,8 @@ htmlhelp_basename = 'WebdevBootcampdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'WebdevBootcamp.tex', u'Webdev Bootcamp Documentation',
-   u'Dave Dash, Laura Thompson, Jeff Balogh, Mozilla Webdev Team', 'manual'),
+  ('index', 'AteamBootcamp.tex', u'A-Team Bootcamp Documentation',
+   u'Mozilla Automation \& Tools', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -218,8 +218,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'webdevbootcamp', u'Webdev Bootcamp Documentation',
-     [u'Dave Dash, Laura Thompson, Jeff Balogh, Mozilla Webdev Team'], 1)
+    ('index', 'ateambootcamp', u'A-team Bootcamp Documentation',
+     [u'Mozilla Automation \& Tools'], 1)
 ]
 
 intersphinx_mapping = dict(

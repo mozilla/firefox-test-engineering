@@ -11,7 +11,6 @@ This is where all the useful information goes that doesn't fit into the
    html-style
    js-style
    css-style
-   l10n
    security
    testing
    servers

@@ -1,13 +1,18 @@
-Mozilla WebDev Bootcamp
-=======================
-`View this document at mozweb.readthedocs.org <http://mozweb.readthedocs.org>`_
+A-team Bootcamp
+===============
+`View this document at ateam-bootcamp.readthedocs.org
+<http://ateam-bootcamp.readthedocs.org>`_
 
-A roadmap to success as a web developer contributing to Mozilla. Now with 80%
-more success!
+A tutorial on some of the basic things you'd want to know when
+contributing to `Automation & Tools`_ at Mozilla.
+
+This document is based off of the excellent `webdev bootcamp`_ documentation.
 
 Patches are always welcome! If you'd like to contribute, fork and make a pull
 request.
 
+.. _`Automation & Tools`: https://wiki.mozilla.org/Auto-tools
+.. _`webdev bootcamp`: http://mozweb.readthedocs.org
 
 Building locally
 ----------------

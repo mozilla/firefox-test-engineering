@@ -42,7 +42,7 @@ these chunks.
 
 In practice, **any changes you make to a project should be tested in some
 automated way if it's reasonable to do so.** While each project varies,
-generally Webdev isn't picky about having perfect unit tests or perfect test
+generally we're not that picky about having perfect unit tests or perfect test
 isolation. If you're unsure, look at existing tests for the project for
 guidance on the preferred style.
 

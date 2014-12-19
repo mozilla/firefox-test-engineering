@@ -1,23 +1,18 @@
-The Mozilla Webdev Group
-========================
+About the Automation & Tools Group
+==================================
 
-Webdev is an informal group of people across the Mozilla project that are
-interested in or work in web development. Webdev isn't linked to a specific
-team and welcomes everyone who wants to be a part of it to join.
-
-As a new contributor, the primary use of the Webdev group will be to help
-answer questions you have or to help you find interesting projects to work on.
-Later on, you can start attending some of our online meetings to meet the rest
-of the group and keep up to date with what everyone else is up to.
+Mozilla Automation and Tools ("the A-Team" for short) is a small group
+dedicated to improving our automation infrastructure and tools to
+better support all of Mozilla's Development and Testing efforts.
 
 How to Talk to Us
 -----------------
 
 There's two main channels of communication for the group:
 
-- The #webdev channel on `irc.mozilla.org <https://wiki.mozilla.org/IRC>`_.
-- The `dev-webdev@lists.mozilla.org mailing list
-  <https://lists.mozilla.org/listinfo/dev-webdev>`_.
+- The #ateam channel on `irc.mozilla.org <https://wiki.mozilla.org/IRC>`_.
+- The `tools@lists.mozilla.org mailing list
+  <https://www.mozilla.org/about/forums/#tools>`_.
 
 If you ever have any question, regardless of how difficult it is, you can share
 it on those channels and someone should help you out. *Don't be afraid to ask

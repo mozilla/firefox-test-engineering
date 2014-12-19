@@ -564,10 +564,10 @@ CSS preprocessor. However, LESS appeared to be stagnating for a time and some
 projects moved toward `Stylus <http://learnboost.github.io/stylus/>`_ as an
 emerging contender under more active development (and also because Stylus has
 some extra features and shares some traits with Python). LESS has since resumed
-more active development, but in an effort to standardize across Mozilla webdev,
+more active development, but in an effort to standardize across Mozilla,
 we're making the call: it's Stylus for us.
 
-New Mozilla webdev projects should use Stylus for CSS preprocessing (or stick
+New web projects should use Stylus for CSS preprocessing (or stick
 with vanilla CSS). Sites currently using LESS should work toward converting to
 Stylus as soon as practically feasible (`tools can help
 <https://gist.github.com/cvan/5061790#file-less2stylus-js>`_). LESS isn't

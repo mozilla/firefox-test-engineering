@@ -2,8 +2,10 @@ Security
 ========
 
 This guide will give you a quick heads-up on important security topics to keep
-in mind as you work on your projects.
+in mind as you work on projects which face the public internet like Treeherder_.
 
+
+.. _Treeherder: http://treeherder.mozilla.org
 
 Involving the Security Team
 ---------------------------
