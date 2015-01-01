@@ -17,7 +17,7 @@ development environments because the tooling is much more
 comprehensive. If you are a Windows user, you may want to use a
 program like `VirtualBox`_ to create a virtual machine running a
 Linux-based operating system. The rest of this guide assumes you are
-using an OS X or Linux-based operating system.
+using OS X or a Linux-based operating system.
 
 If you are running Mac OS X, most of the software mentioned here can be
 installed using the `Homebrew`_ package manager.
@@ -36,30 +36,30 @@ same time and merge their changes together at the end.
 .. seealso::
 
    `help.github.com <https://help.github.com/>`_
-      A great guide to getting start with Git and Github, which hosts most of
-      our git repositories.
+      A great guide to getting start with Git and GitHub, which hosts most of
+      our Git repositories.
 
-   `Github for Windows <https://windows.github.com/>`_
-      A Windows program for interacting with Github as an alternative to using
-      git in a terminal. Useful if you are not used to using a terminal yet.
+   `GitHub for Windows <https://windows.github.com/>`_
+      A Windows program for interacting with GitHub as an alternative to using
+      Git in a terminal. Useful if you are not used to using a terminal yet.
 
-   `Github for Mac <https://mac.github.com/>`_
-      A Mac OS X program for interacting with Github as an alternative to using
-      git in a terminal. Useful if you are not used to using a terminal yet.
+   `GitHub for Mac <https://mac.github.com/>`_
+      A Mac OS X program for interacting with GitHub as an alternative to using
+      Git in a terminal. Useful if you are not used to using a terminal yet.
 
 .. _Git: http://git-scm.com/
 
 Mercurial
 ---------
 
-Mercurial_ is a version control system, similar to git. We use it to
+Mercurial_ is a version control system similar to Git. We use it to
 track the source code to Firefox itself, as well as much of the
 automated test infrastructure around it (mochitest, reftest, etc.).
 
 .. seealso::
 
    `Mozilla's Guide to Mercurial <https://developer.mozilla.org/en-US/docs/Mercurial>`_
-     The MDN page on Mercurial, contains some useful links for getting
+     The MDN page on Mercurial contains some useful links for getting
      started.
 
 .. _Mercurial: http://mercurial.selenic.com
@@ -67,12 +67,13 @@ automated test infrastructure around it (mochitest, reftest, etc.).
 Python
 ------
 
-Python_ is a programming language that many of our websites use for their
-backend code. Many of our Python-based sites are implemented using Django_,
-a Python-based framework for making websites.
+Python_ is a programming language that we use in many of our tools and
+automation frameworks. Our bigger web-based tools are often implemented
+using Django_, a Python-based framework for making websites, but we also
+use other web frameworks, such as Flask_, for smaller apps.
 
-Most of our Python-based sites are developed to run under Python 2, and most
-of our servers run the sites on Python 2.
+Most of our Python-based projects are developed to run under Python 2, and most
+of our servers run web apps using Python 2.
 
 .. seealso::
 
@@ -82,3 +83,4 @@ of our servers run the sites on Python 2.
 
 .. _Python: https://www.python.org/
 .. _Django: https://www.djangoproject.com/
+.. _Flask: http://flask.pocoo.org/

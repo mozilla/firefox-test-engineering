@@ -7,21 +7,21 @@ know the standards for your project!
 
 General Guidelines
 ------------------
-- Follow PEP8_.
-- Follow Pocoo_'s extensions to PEP8, although these are a little less strictly
+- Follow `PEP 8`_.
+- Follow Pocoo_'s extensions to PEP 8, although these are a little less strictly
   enforced across Mozilla projects.
 - Check your code against a linting tool. flake8_ is highly recommended for
   this.
 
-.. _PEP8: http://www.python.org/dev/peps/pep-0008/
+.. _PEP 8: http://www.python.org/dev/peps/pep-0008/
 .. _flake8: http://flake8.readthedocs.org/en/latest/
 .. _Pocoo: http://www.pocoo.org/internal/styleguide/
 
 Import Statements
 -----------------
 
-We expand on PEP8_'s suggestions for import statements. These greatly improve
-ones ability to ascertain what is and isn't available in a given file.
+We expand on `PEP 8`_'s suggestions for import statements. These greatly improve
+one's ability to ascertain what is and isn't available in a given file.
 
 Import one module per import statement::
 
@@ -32,8 +32,7 @@ not::
 
     import os, sys
 
-Separate imports into groups with a line of whitespace: standard library; Django
-(or framework); third-party; and local imports::
+Separate imports into groups with a line of whitespace: standard library; (if a web app) Django or other framework; third-party; and local imports::
 
     import os
     import sys
@@ -45,7 +44,7 @@ Separate imports into groups with a line of whitespace: standard library; Django
     from myapp import models, views
 
 
-Alphabetize your imports, it will make your code easier to scan. See how
+Alphabetize your imports; it will make your code easier to scan. See how
 terrible this is::
 
     import cows
@@ -58,7 +57,7 @@ A simple sort::
     import cows
     import kittens
 
-Imports on top, ``from``-imports below::
+Imports on top, ``from`` imports below::
 
     import x
     import y
@@ -129,9 +128,9 @@ Use single quotes unless double (or triple) quotes would be an improvement::
 
     '''nobody really does this'''
 
-To continue a new line use a ```()``` not ```\```.
+To continue a new line use a ``()`` not ``\``.
 
-Indenting code should be done in one of two ways: a hanging indent, or 4 space
+Indenting code should be done in one of two ways: a hanging indent, or 4-space
 indent on the next line.
 
 Good, using hanging indent. Note that the next line is lined up with the

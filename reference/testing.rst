@@ -30,14 +30,14 @@ A risk assessment lists out the different parts of your project (such as
 certain webpages or parts of an API) and ranks them based on their importance.
 For example, a news site rank being able to read existing articles as more
 important than being able to submit new articles. Ranking these parts allows
-you to make decisions about which to test more and what kind of tests to run.e
+you to make decisions about which to test more and what kind of tests to run.
 
 Unit and integration tests
 --------------------------
 
 As a developer, the most common type of tests you will write are unit and
 integration tests. Unit tests test the smallest possible chunk of functionality
-and are isolated from eachother. Integration tests test the interaction between
+and are isolated from each other. Integration tests test the interaction between
 these chunks.
 
 In practice, **any changes you make to a project should be tested in some

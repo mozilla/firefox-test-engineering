@@ -12,7 +12,7 @@ Getting set up
 
 Once you've identified the project you want to work on, you should set up a
 development instance of it locally. All projects have (or should have) a README
-file in their source tree that either describes this or links to
+file in their source tree that either describes this process or links to
 documentation that does.
 
 Find a mentor
@@ -29,7 +29,7 @@ How to contribute
 -----------------
 
 Once you're set up to work on a project, you'll have to find a task to work on
-and get to work! Each project should have some information on where their tasks
+and get coding! Each project should have some information on where their tasks
 are tracked, generally on Bugzilla_.
 
 .. _Bugzilla: http://bugzilla.mozilla.org
