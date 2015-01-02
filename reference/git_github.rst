@@ -1,12 +1,12 @@
-Git and Github
+Git and GitHub
 ==============
 
-This document describes some best practices for using Git and Github.
+This document describes some best practices for using Git and GitHub.
 
 Commit Messages
 ---------------
 
-See `Tim Pope's blog post on git commit messages
+See `Tim Pope's blog post on Git commit messages
 <http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html>`_.
 
 Rebasing Commits
@@ -53,8 +53,8 @@ the pull request as the content. This will cause Bugzilla to link to the pull
 request and allow you to set the review bit on the attachment to track the
 state of the review in Bugzilla.
 
-Owners and the Mozilla Github Organization
+Owners and the Mozilla GitHub Organization
 ------------------------------------------
-See the `Github page on wiki.mozilla.org <https://wiki.mozilla.org/Github>`_
-for information on the Mozilla organization on Github or anything that requires
+See the `GitHub page on wiki.mozilla.org <https://wiki.mozilla.org/Github>`_
+for information on the Mozilla organization on GitHub or anything that requires
 owner access for the organization.

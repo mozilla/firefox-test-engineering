@@ -2,7 +2,7 @@ Development Process
 ===================
 
 While the details vary, there is a general framework for the development
-process at Mozilla which describes how a change goes from an idea in someone's
+process at Mozilla, which describes how a change goes from an idea in someone's
 head to deployed code. This document attempts to describe that process.
 
 Filing a Bug
@@ -19,9 +19,9 @@ choice for the project. A well-written bug includes:
   issue.
 
 Depending on the project, the bug may be triaged and assigned a priority and/or
-milestone, or it may be added to another system for tracking work, such as trello_.
+milestone, or it may be added to another system for tracking work, such as Trello_.
 
-.. _trello: http://trello.com
+.. _Trello: http://trello.com
 
 Working on the Bug
 ------------------
@@ -43,20 +43,20 @@ The process of fixing a bug involves:
   updating your changes in response to the review.
 - Merging your feature branch back into the main branch used for development.
 
-Git and Github
+Git and GitHub
 ^^^^^^^^^^^^^^
 
-For projects using Git and Github, the process can be explained in more detail:
+For projects using Git and GitHub, the process can be explained in more detail:
 
-- On Github, ensure you have `forked the repository`_ for your project to your
+- On GitHub, ensure you have `forked the repository`_ for your project to your
   own account and have added it as a `remote`_ to your repository.
 - Identify the main development branch for your project. This is usually the
   ``master`` branch.
-- Make sure the current branch is the development branch and create a new
+- Make sure the current branch is the development branch, and create a new
   branch off of it for your feature.
 - Once your work is committed and ready for review, `push the branch`_ to your
-  fork on Github and `submit a pull request`_.
-- If the project uses bugzilla for issue tracking, `create an attachment
+  fork on GitHub and `submit a pull request`_.
+- If the project uses Bugzilla for issue tracking, `create an attachment
   to your issue's bug pointing at the pull request`_. Otherwise, if
   you know who should review your change, add a comment to your pull request
   with their ``@Username`` in it and ask for a review.
@@ -64,10 +64,10 @@ For projects using Git and Github, the process can be explained in more detail:
 .. seealso::
 
    :doc:`/reference/glossary`
-      A glossary of specialized terms used within the A-team, including some
+      A glossary of specialized terms used within the A-Team, including some
       abbreviations used for code review, such as ``r?``, ``r+``, and ``r-``.
 
-   `Github Flow <https://guides.github.com/introduction/flow/>`_
+   `GitHub Flow <https://guides.github.com/introduction/flow/>`_
       A process for branching, reviewing, and merging code that is very similar
       to the process above.
 
@@ -81,7 +81,7 @@ For projects using Git and Github, the process can be explained in more detail:
 Mercurial
 ^^^^^^^^^
 
-For projects using Mercurial (for example, talos_ or mozbase_) the
+For projects using Mercurial (for example, Talos_ or Mozbase_) the
 process looks like this:
 
 - Check out the source code of the project you want to contribute to
@@ -90,8 +90,8 @@ process looks like this:
   alternatively, use `mercurial bookmarks`_ to do the same thing).
 - Finish your work and commit the changes, then `submit them as a patch`_.
 
-.. _talos: https://wiki.mozilla.org/Buildbot/Talos
-.. _mozbase: https://wiki.mozilla.org/Auto-tools/Projects/MozBase
+.. _Talos: https://wiki.mozilla.org/Buildbot/Talos
+.. _Mozbase: https://wiki.mozilla.org/Auto-tools/Projects/MozBase
 .. _mozilla-central: https://developer.mozilla.org/en-US/docs/mozilla-central
 .. _mercurial queue: https://developer.mozilla.org/en-US/docs/Mercurial_Queues
 .. _mercurial bookmarks: http://mercurial.selenic.com/wiki/NamedBranches
@@ -118,7 +118,7 @@ your first contribution to Mozilla! Once you've submitted your work and gotten
 it merged, it's time to celebrate: you've earned it!
 
 As you continue to contribute, you may want to check out the
-:doc:`/reference/index` to find generally-useful information for contributors
+:doc:`/reference/index` to find generally useful information for contributors
 of all levels.
 
 Good luck!

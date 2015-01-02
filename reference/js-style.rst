@@ -89,12 +89,12 @@ Bad::
     var boohoo = false;
 
 
-Semi-colons
+Semicolons
 -----------
 
 **Use them.**
 
-Not because ASI is black-magic, or whatever. I'm sure we all understand ASI.
+Not because ASI is black magic, or whatever. I'm sure we all understand ASI.
 Just do it for consistency.
 
 

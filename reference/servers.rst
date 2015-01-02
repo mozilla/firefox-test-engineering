@@ -18,7 +18,7 @@ Most Mozilla websites are split into three environments:
 
 - Staging (AKA stage) is intended to be similar to production and is used for
   testing the deployment process itself. Stage is usually deployed before
-  deploying to production, and is sometimes used by QA for testing purposes as
+  production, and it is sometimes used by QA for testing purposes as
   well.
 
   The standard pattern for stage server URLs is ``project.allizom.org``.
