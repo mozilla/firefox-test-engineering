@@ -8,14 +8,11 @@ know the standards for your project!
 General Guidelines
 ------------------
 - Follow `PEP 8`_.
-- Follow Pocoo_'s extensions to PEP 8, although these are a little less strictly
-  enforced across Mozilla projects.
 - Check your code against a linting tool. flake8_ is highly recommended for
   this.
 
 .. _PEP 8: http://www.python.org/dev/peps/pep-0008/
 .. _flake8: http://flake8.readthedocs.org/en/latest/
-.. _Pocoo: http://www.pocoo.org/internal/styleguide/
 
 Import Statements
 -----------------
