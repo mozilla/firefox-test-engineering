@@ -11,7 +11,7 @@ You're just beginning to investigate participation on the A-Team.
 Criteria:
 
 * Find bugs to work on
-* setup irc, bugzilla, hg/git, environment
+* Setup IRC, bugzilla, hg/git, environment
 
 Associate
 ---------
@@ -20,10 +20,10 @@ You're beinning to contribute to the A-Team by getting involved with a project, 
 
 Criteria:
 
-* work with 2+ mozillians
-* 3+ good first bugs
-* 1+ good next bugs
-* get involved in a project
+* Work with 2+ mozillians
+* Resolve 3+ good first bugs
+* Resolve at least 1 mentored bug which isn't a good first bug
+* Get involved in a project
 
 Core Contributor
 ----------------
@@ -32,11 +32,11 @@ You've reached the point where you're a solid and consistent contributor to the 
 
 Criteria:
 
-* mozillians profile
-* 5+ good next bugs
-* participate in meetings
-* file new bugs, review code
-* with with 5+ mozillians
+* Create a Mozillians profile
+* Resolve 5+ good next bugs
+* Participate in meetings
+* File new bugs, review code
+* Work with with 5+ mozillians
 
 Peer
 ----
@@ -45,11 +45,11 @@ You're taking on additional ownership and responsibility within the team.  You'r
 
 Criteria:
 
-* commit access
-* split a project into features/bugs
+* Establish commit access
+* Split a project into features/bugs
 * Propose new features on projects
 * Initiate discussions / meetings
-* mentor new contributors
+* Mentor new contributors
 
 Project Lead
 ------------
@@ -59,6 +59,6 @@ You're a key member of the team, and directly lead one or more projects.  You de
 Criteria:
 
 * Mentor 2+ contributors to be Core Contributors
-* develop and maintain a project
-* participate in all areas of the ateam
+* Develop and maintain a project
+* Participate in all areas of the ateam
 * Solve problems by reusing existing projects
