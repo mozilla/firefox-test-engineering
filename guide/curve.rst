@@ -33,7 +33,7 @@ You've reached the point where you're a solid and consistent contributor to the 
 Criteria:
 
 * Create a Mozillians profile
-* Resolve 5+ good next bugs
+* Resolve 5+ bugs
 * Participate in meetings
 * File new bugs, review code
 * Work with with 5+ mozillians
