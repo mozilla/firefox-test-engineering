@@ -19,3 +19,4 @@ Let's get started!
    software
    projects
    development_process
+   curve
