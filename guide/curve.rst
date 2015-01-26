@@ -1,7 +1,7 @@
 Commitment Curve
 ================
 
-Contributions on the A-Team, whether paid or volunteer, follow a participation and responsibility trajectory, or commitment curve, described by the stages below.  Each stage, with the exception of Explorer, is associated with a related badge which can be earned by performing all of the tasks listed for each stage.
+Contributors on the A-Team, whether paid or volunteer, follow a participation and responsibility trajectory, or commitment curve, described by the stages below.  Each stage, with the exception of Explorer, is associated with a related badge which can be earned by performing all of the tasks listed for each stage.
 
 Explorer
 --------
