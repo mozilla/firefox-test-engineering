@@ -36,7 +36,7 @@ Criteria:
 * Resolve 5+ bugs
 * Participate in meetings
 * File new bugs, review code
-* Work with with 5+ mozillians
+* Work with 5+ mozillians
 
 Peer
 ----
