@@ -1,5 +1,6 @@
 A-Team Bootcamp
 ===============
+ .. image:: https://wiki.mozilla.org/images/thumb/1/13/Ateam.png/173px-Ateam.png
 
 Hello! Welcome to the `Mozilla Automation & Tools`_  Bootcamp, an informal
 guide to how test-automation development is done at Mozilla.
