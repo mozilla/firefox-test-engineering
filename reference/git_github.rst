@@ -1,11 +1,9 @@
 Git and GitHub
 ==============
 
-If you are a contributor who is completely new to distributed version
-control systems like Git, you might enjoy stepping through some or all
-of this `fun and easy tutorial <https://try.github.io/levels/1/challenges/1>`_.
-
 The sections below describe some A-team best practices for using Git and GitHub.
+For more general information on Git, see the :doc:`../guide/software`
+section of the guide.
 
 Commit Messages
 ---------------

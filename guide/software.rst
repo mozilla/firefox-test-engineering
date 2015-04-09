@@ -33,10 +33,14 @@ we make to our code, which allows us to see how the code has changed over time.
 Git also makes it very easy for multiple people to work on the same code at the
 same time and merge their changes together at the end.
 
+If you are a contributor who is completely new to distributed version
+control systems, you might enjoy stepping through some or all of this
+`fun and easy tutorial <https://try.github.io/levels/1/challenges/1>`_.
+
 .. seealso::
 
    `help.github.com <https://help.github.com/>`_
-      A great guide to getting start with Git and GitHub, which hosts most of
+      A great guide to getting started with Git and GitHub, which hosts most of
       our Git repositories.
 
    `GitHub for Windows <https://windows.github.com/>`_
