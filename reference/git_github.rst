@@ -2,8 +2,9 @@ Git and GitHub
 ==============
 
 The sections below describe some A-team best practices for using Git and GitHub.
-For more general information on Git, see the :doc:`../guide/software`
-section of the guide.
+For more general information on Git and how we use it, see the
+:doc:`../guide/software` and :doc:`../guide/development_process`
+sections of the guide.
 
 Commit Messages
 ---------------
@@ -41,19 +42,6 @@ easier, and are recommended for all pull requests.
 
    `Using Git rebase <https://help.github.com/articles/using-git-rebase>`_
       A short guide on how to use the ``git rebase`` command.
-
-Asking for Review
------------------
-
-When asking someone for a code review, it is recommended to add a new comment
-to a pull request using the ``@Username`` syntax. This notifies them via email
-that a review has been requested. Adding the ``@Username`` to the pull request
-description will **not** send out the notification and thus isn't recommended.
-
-You may also add an attachment to a bug in Bugzilla and paste in the URL for
-the pull request as the content. This will cause Bugzilla to link to the pull
-request and allow you to set the review bit on the attachment to track the
-state of the review in Bugzilla.
 
 Owners and the Mozilla GitHub Organization
 ------------------------------------------
