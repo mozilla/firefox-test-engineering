@@ -29,6 +29,11 @@ repository. Typically you rebase a branch to:
 - Move a branch to be based on the latest commit of the branch you want to
   merge into and resolve any conflicts that occur.
 
+If you're not familiar with rebasing, you can start with this `short
+guide`_ on how to use the ``git rebase`` command.
+
+.. _short guide: https://help.github.com/articles/using-git-rebase
+
 These changes all make the code review process as well as the merging process
 easier, and are recommended for all pull requests.
 
@@ -37,11 +42,6 @@ easier, and are recommended for all pull requests.
              local repositories. Only rebase branches that you are absolutely
              sure no one else is using, such as feature branches on your
              personal fork.
-
-.. seealso::
-
-   `Using Git rebase <https://help.github.com/articles/using-git-rebase>`_
-      A short guide on how to use the ``git rebase`` command.
 
 Owners and the Mozilla GitHub Organization
 ------------------------------------------
