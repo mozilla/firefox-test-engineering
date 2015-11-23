@@ -7,6 +7,11 @@ define those terms.
 
 .. glossary::
 
+   Orange
+      An "orange" refers to a test that fails intermittently.  They are called
+      "oranges" because they turn our status reporting orange.  View current
+      `list of "oranges" <http://brasstacks.mozilla.com/orangefactor/>`_
+
    pull request
    PR
       A term for a request on GitHub to merge some changes into a codebase.
