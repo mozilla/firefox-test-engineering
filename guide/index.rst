@@ -14,7 +14,7 @@ Let's get started!
 .. toctree::
    :maxdepth: 2
 
-   ateam
+   team
    accounts
    software
    projects
