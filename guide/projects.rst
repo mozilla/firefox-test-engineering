@@ -5,7 +5,7 @@ Before you can contribute to Mozilla, you need to find a project that you're
 interested in contributing to. We currently maintain a `list of
 projects`_ on our team's wiki.
 
-.. _list of projects: https://wiki.mozilla.org/Auto-tools/Projects
+.. _list of projects: https://wiki.mozilla.org/Auto-tools/Projects/Everything
 
 Getting set up
 --------------

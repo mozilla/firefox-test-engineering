@@ -43,6 +43,7 @@ The process of fixing a bug involves:
   updating your changes in response to the review.
 - Merging your feature branch back into the main branch used for development.
 
+
 Git and GitHub
 ^^^^^^^^^^^^^^
 
@@ -100,14 +101,19 @@ process looks like this:
 .. _mercurial bookmarks: http://mercurial.selenic.com/wiki/NamedBranches
 .. _submit them as a patch: https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/How_to_Submit_a_Patch#Submitting_the_patch
 
-Testing and Resolution
-----------------------
+Testing
+-------
 
-Once a change is merged into the codebase, it needs to be tested in
-whatever environment it is going to be running in. You should do this
-yourself before submitting a patch, but typically a core project
-member will do some additional verification and let you know if any
-effort on your end is required.
+Once you have code change complete, you are expected to test it on
+whatever environment it is going to be running in.  You should do this on
+your local machine before submitting a patch.  If it passes locally, can also consider
+running your change on our `Try servers <https://wiki.mozilla.org/ReleaseEngineering/TryServer>`_,
+which will test a variety of platforms and modes.  If you do not have
+permission to Try, a core project member will run these tests for you and let
+you know if any more effort is required by you.
+
+Resolution
+----------
 
 A bug is usually marked as resolved when it is merged into the codebase.
 Depending on the issue tracker being used, the bug may also be marked as

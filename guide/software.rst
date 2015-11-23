@@ -68,6 +68,27 @@ automated test infrastructure around it (mochitest, reftest, etc.).
 
 .. _Mercurial: http://mercurial.selenic.com
 
+
+DXR
+---
+
+DXR is a project dedicated to indexing all the Firefox source code, plus other
+projects using the the Mercurial repository.
+
+- To look up source in Mozilla-Central (trunk) `https://dxr.mozilla.org/mozilla-central/source/`_
+- To look up a specific file in our tree use this url for a base: https://dxr.mozilla.org/mozilla-central/search?q=path%3A and add the file name to it.
+
+Pro tip: You can define a `bookmark keyword in Firefox <http://www.mozilla.org/docs/end-user/keywords.html>`_.
+Then you can type "dxrf <filename>" in the URL bar.
+
+
+Pastebin
+---------
+
+* To "pastebin" something, `paste it here <http://pastebin.mozilla.org/>`_ and
+hand the link you're given after clicking "submit" to people on IRC.
+
+
 Python
 ------
 
@@ -88,3 +109,5 @@ of our servers run web apps using Python 2.
 .. _Python: https://www.python.org/
 .. _Django: https://www.djangoproject.com/
 .. _Flask: http://flask.pocoo.org/
+
+
