@@ -14,7 +14,7 @@ There are a few channels of communication for our group:
 - The #ateam channel on `irc.mozilla.org <https://wiki.mozilla.org/IRC>`_.
 - The `tools@lists.mozilla.org mailing list
   <https://www.mozilla.org/about/forums/#tools>`_.
-- Join our regular `status conference call 
+- Join our regular `status conference call
   <https://wiki.mozilla.org/EngineeringProductivity/Meetings>`_.
   Be sure to say hello so we know you're there!
 
@@ -46,7 +46,3 @@ We are one team, part of a much bigger Mozilla project.  Here are some links:
 * Technical discussions regarding the Gecko Platform: `mozilla.dev.platform <https://groups.google.com/forum/#!forum/mozilla.dev.platform>`_
 * Keep abreast of the latest status on the entire project: `Planet Mozilla <http://planet.mozilla.org>`_
 * Watch the automated messages coming out of the automation: `mozilla.dev.tree-management <https://groups.google.com/forum/#!forum/mozilla.dev.tree-management>`_
-* Firefox front end design, questions and status: `mozilla.dev.apps.firefox <https://groups.google.com/forum/#!forum/mozilla.dev.apps.firefox>`_
-* Mozilla makes FirefoxOS: `firefoxos <https://groups.google.com/forum/#!forum/firefoxos>`_
-
-
