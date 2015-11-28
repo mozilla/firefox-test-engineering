@@ -16,7 +16,7 @@ Criteria:
 Associate
 ---------
 
-You're beinning to contribute to the A-Team by getting involved with a project, working with some Mozillians, and resolving some bugs.
+You're beginning to contribute to the A-Team by getting involved with a project, working with some Mozillians, and resolving some bugs.
 
 Criteria:
 
