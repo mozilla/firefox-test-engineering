@@ -3,7 +3,7 @@ A-Team Bootcamp
  .. image:: https://wiki.mozilla.org/images/thumb/1/13/Ateam.png/173px-Ateam.png
 
 Hello! Welcome to the `Mozilla Engineering Productivity`_  Bootcamp, an informal
-guide to how test-automation development is done at Mozilla.
+introduction to how to work with our group.
 
 This document is based off of the excellent `Mozilla WebDev bootcamp`_.
 
