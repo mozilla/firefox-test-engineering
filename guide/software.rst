@@ -85,8 +85,9 @@ Then you can type "dxrf <filename>" in the URL bar.
 Pastebin
 ---------
 
-* To "pastebin" something, `paste it here <http://pastebin.mozilla.org/>`_ and
-hand the link you're given after clicking "submit" to people on IRC.
+Pastebin is a tool that can be used to capture snippits of log or error messages for collaborative debugging.
+
+To "pastebin" something, `paste it here <http://pastebin.mozilla.org/>`_ and hand the link you're given after clicking "submit" to people on IRC.
 
 
 Python
@@ -94,11 +95,9 @@ Python
 
 Python_ is a programming language that we use in many of our tools and
 automation frameworks. Our bigger web-based tools are often implemented
-using Django_, a Python-based framework for making websites, but we also
-use other web frameworks, such as Flask_, for smaller apps.
+using Django_, a Python-based framework for making websites.
 
-Most of our Python-based projects are developed to run under Python 2, and most
-of our servers run web apps using Python 2.
+Most of our Python-based projects are developed to run under Python 2.
 
 .. seealso::
 
@@ -108,6 +107,5 @@ of our servers run web apps using Python 2.
 
 .. _Python: https://www.python.org/
 .. _Django: https://www.djangoproject.com/
-.. _Flask: http://flask.pocoo.org/
 
 
