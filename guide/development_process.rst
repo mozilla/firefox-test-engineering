@@ -21,7 +21,7 @@ choice for the project. A well-written bug includes:
 Depending on the project, the bug may be triaged and assigned a priority and/or
 milestone, or it may be added to another system for tracking work, such as Trello_.
 
-.. _Trello: http://trello.com
+.. _Trello: https://trello.com/
 
 Working on the Bug
 ------------------
@@ -98,7 +98,7 @@ process looks like this:
 .. _Mozbase: https://wiki.mozilla.org/Auto-tools/Projects/MozBase
 .. _mozilla-central: https://developer.mozilla.org/en-US/docs/mozilla-central
 .. _mercurial queue: https://developer.mozilla.org/en-US/docs/Mercurial_Queues
-.. _mercurial bookmarks: http://mercurial.selenic.com/wiki/NamedBranches
+.. _mercurial bookmarks: https://www.mercurial-scm.org/wiki/NamedBranches
 .. _submit them as a patch: https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/How_to_Submit_a_Patch#Submitting_the_patch
 
 Testing and Resolution

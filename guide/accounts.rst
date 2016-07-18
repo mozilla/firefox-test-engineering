@@ -22,7 +22,7 @@ for guides on the basics of using Git and GitHub.
       Mozilla's organization account on GitHub.
 
 .. _GitHub: https://github.com/
-.. _Git: http://git-scm.com/
+.. _Git: https://git-scm.com/
 .. _GitHub help site: https://help.github.com/
 
 
@@ -44,8 +44,8 @@ code base, you'll want to apply for `committer access`_ so you can push
 code to try_ or an integration branch like mozilla-inbound.
 
 .. _mozilla-central: https://developer.mozilla.org/en-US/docs/mozilla-central
-.. _Mercurial: http://mercurial.selenic.com
-.. _Mercurial for Mozillians: http://mozilla-version-control-tools.readthedocs.org/en/latest/hgmozilla/
+.. _Mercurial: https://www.mercurial-scm.org/
+.. _Mercurial for Mozillians: https://mozilla-version-control-tools.readthedocs.io/en/latest/hgmozilla/
 .. _`committer access`: https://www.mozilla.org/en-US/about/governance/policies/commit/
 .. _try: https://wiki.mozilla.org/Build:TryServer
 

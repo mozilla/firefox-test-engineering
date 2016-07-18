@@ -51,7 +51,7 @@ control systems, you might enjoy stepping through some or all of this
       A Mac OS X program for interacting with GitHub as an alternative to using
       Git in a terminal. Useful if you are not used to using a terminal yet.
 
-.. _Git: http://git-scm.com/
+.. _Git: https://git-scm.com/
 
 Mercurial
 ---------
@@ -66,7 +66,7 @@ automated test infrastructure around it (mochitest, reftest, etc.).
      The MDN page on Mercurial contains some useful links for getting
      started.
 
-.. _Mercurial: http://mercurial.selenic.com
+.. _Mercurial: https://www.mercurial-scm.org/
 
 
 DXR
@@ -78,7 +78,7 @@ projects using the the Mercurial repository.
 - To look up source in Mozilla-Central (trunk) `https://dxr.mozilla.org/mozilla-central/source/`_
 - To look up a specific file in our tree use this url for a base: https://dxr.mozilla.org/mozilla-central/search?q=path%3A and add the file name to it.
 
-Pro tip: You can define a `bookmark keyword in Firefox <http://www.mozilla.org/docs/end-user/keywords.html>`_.
+Pro tip: You can define a `bookmark keyword in Firefox <http://www-archive.mozilla.org/docs/end-user/keywords.html>`_.
 Then you can type "dxrf <filename>" in the URL bar.
 
 
@@ -87,7 +87,7 @@ Pastebin
 
 Pastebin is a tool that can be used to capture snippits of log or error messages for collaborative debugging.
 
-To "pastebin" something, `paste it here <http://pastebin.mozilla.org/>`_ and hand the link you're given after clicking "submit" to people on IRC.
+To "pastebin" something, `paste it here <https://pastebin.mozilla.org/>`_ and hand the link you're given after clicking "submit" to people on IRC.
 
 
 Python

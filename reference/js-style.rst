@@ -15,7 +15,7 @@ First and Foremost
    about not knowing what 'require' is. You can add keywords to ignore to a
    `.jshintrc` file.
 
-.. _JSHint: http://www.jshint.com/
+.. _JSHint: http://jshint.com/
 
 
 Variable Formatting:

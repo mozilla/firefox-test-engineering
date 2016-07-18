@@ -1,7 +1,7 @@
 A-team Bootcamp
 ===============
-`View this document at ateam-bootcamp.readthedocs.org
-<http://ateam-bootcamp.readthedocs.org>`_
+`View this document at ateam-bootcamp.readthedocs.io
+<https://ateam-bootcamp.readthedocs.io/>`_
 
 A tutorial on some of the basic things you'd want to know when
 contributing to `Automation & Tools`_ at Mozilla.
@@ -12,7 +12,7 @@ Patches are always welcome! If you'd like to contribute, fork and make a pull
 request.
 
 .. _`Automation & Tools`: https://wiki.mozilla.org/Auto-tools
-.. _`webdev bootcamp`: http://mozweb.readthedocs.org
+.. _`webdev bootcamp`: https://mozweb.readthedocs.io/
 
 Building locally
 ----------------
