@@ -3,7 +3,7 @@ About the A-Team
 
 The Engineering Productivity group (called "the A-Team" for nostalgic reasons)
 is a small group dedicated to improving our automation infrastructure and
-tools to better support `Mozilla's automated tests <http://developer.mozilla.org/en/docs/Mozilla_automated_testing overview>`_
+tools to better support `Mozilla's automated tests overview <https://developer.mozilla.org/en/docs/Mozilla/QA/Automated_testing>`_
 and other of Mozilla's Development and Testing efforts.
 
 How to Talk to Us

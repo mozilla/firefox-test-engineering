@@ -10,7 +10,7 @@ define those terms.
    Orange
       An "orange" refers to a test that fails intermittently.  They are called
       "oranges" because they turn our status reporting orange.  View current
-      `list of "oranges" <http://brasstacks.mozilla.com/orangefactor/>`_
+      `list of "oranges" <https://brasstacks.mozilla.com/orangefactor/>`_
 
    pull request
    PR

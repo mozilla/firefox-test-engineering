@@ -93,7 +93,7 @@ General
   Github.
 - Selenium_ is a tool for automating browsers, often for testing purposes.
 
-.. _Jenkins: http://jenkins-ci.org/
+.. _Jenkins: https://jenkins.io/
 .. _Travis CI: https://travis-ci.org/
 
 Python
@@ -112,10 +112,10 @@ Python
 - Mock_ is one of the most popular libraries for replacing parts of the system
   you're testing with mock objects and asserting things about their behavior.
 
-.. _nose: http://nose.readthedocs.org/en/latest/
+.. _nose: https://nose.readthedocs.io/
 .. _django-nose: https://github.com/django-nose/django-nose
 .. _nose-progressive: https://github.com/erikrose/nose-progressive
-.. _factory-boy: https://factoryboy.readthedocs.org/
+.. _factory-boy: https://factoryboy.readthedocs.io/
 .. _Mock: http://www.voidspace.org.uk/python/mock/
 
 Node / JavaScript

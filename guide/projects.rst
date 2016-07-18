@@ -32,5 +32,5 @@ Once you're set up to work on a project, you'll have to find a task to work on
 and get coding! Each project should have some information on where their tasks
 are tracked, generally on Bugzilla_.
 
-.. _Bugzilla: http://bugzilla.mozilla.org
+.. _Bugzilla: https://bugzilla.mozilla.org
 
