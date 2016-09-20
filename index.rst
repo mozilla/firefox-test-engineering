@@ -1,11 +1,9 @@
-A-Team Bootcamp
+Firefox Test Engineering Bootcamp
 ===============
- .. image:: https://wiki.mozilla.org/images/thumb/1/13/Ateam.png/173px-Ateam.png
-
-Hello! Welcome to the `Mozilla Engineering Productivity`_  Bootcamp, an informal
+Hello! Welcome to the `Firefox Test Engineering`_  Bootcamp, an informal
 introduction to how to work with our group.
 
-.. _`Mozilla Engineering Productivity`: https://wiki.mozilla.org/EngineeringProductivity
+.. _`Firefox Test Engineering`: https://wiki.mozilla.org/TestEngineering
 
 If you're a new contributor or new employee, you can start out by reading the
 :doc:`guide/index`. If you're already a contributor, you can find
