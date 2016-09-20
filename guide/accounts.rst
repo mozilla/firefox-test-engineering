@@ -8,7 +8,7 @@ you create accounts on these websites.
 GitHub
 ------
 
-Many A-Team projects are hosted on GitHub_. GitHub provides hosting for our
+Many Firefox Test Engineering projects are hosted on GitHub_. GitHub provides hosting for our
 source code, as well as tools we use for collaboration and code review. GitHub
 is based on Git_, a distributed version control system that lets us track the
 changes we make to our code.
@@ -18,6 +18,8 @@ for guides on the basics of using Git and GitHub.
 
 .. seealso::
 
+   `Mozilla Services on GitHub <https://github.com/mozilla-services/>`_
+      Mozilla Services' organization account on GitHub.
    `Mozilla on GitHub <https://github.com/mozilla/>`_
       Mozilla's organization account on GitHub.
 
