@@ -28,29 +28,6 @@ for guides on the basics of using Git and GitHub.
 .. _GitHub help site: https://help.github.com/
 
 
-Mercurial and Mozilla-Central
------------------------------
-
-Much of our other build & test code lives inside `mozilla-central`_,
-a `Mercurial`_ repository which also contains the source code to Firefox. Check 
-out `Mercurial for Mozillians`_ for guides on installing and using Mercurial.
-
-To be able to commit to the mozilla-central repository directly, you will need to
-sign a contributor's agreement and be vouched for by a module owner. You
-probably don't need to worry about this initially: just clone the
-repository, test your changes locally, and let other people
-push your patches for you.
-
-If you find that you're working on a lot of stuff within this
-code base, you'll want to apply for `committer access`_ so you can push
-code to try_ or an integration branch like mozilla-inbound.
-
-.. _mozilla-central: https://developer.mozilla.org/en-US/docs/mozilla-central
-.. _Mercurial: https://www.mercurial-scm.org/
-.. _Mercurial for Mozillians: https://mozilla-version-control-tools.readthedocs.io/en/latest/hgmozilla/
-.. _`committer access`: https://www.mozilla.org/en-US/about/governance/policies/commit/
-.. _try: https://wiki.mozilla.org/Build:TryServer
-
 Bugzilla
 --------
 
