@@ -1,17 +1,14 @@
-A-team Bootcamp
+Firefox Test Engineering Bootcamp
 ===============
-`View this document at ateam-bootcamp.readthedocs.io
-<https://ateam-bootcamp.readthedocs.io/>`_
-
 A tutorial on some of the basic things you'd want to know when
-contributing to `Automation & Tools`_ at Mozilla.
+contributing to `Firefox Test Engineering`_ at Mozilla.
 
 This document is based off of the excellent `webdev bootcamp`_ documentation.
 
 Patches are always welcome! If you'd like to contribute, fork and make a pull
 request.
 
-.. _`Automation & Tools`: https://wiki.mozilla.org/Auto-tools
+.. _`Firefox Test Engineering`: https://wiki.mozilla.org/TestEngineering
 .. _`webdev bootcamp`: https://mozweb.readthedocs.io/
 
 Building locally
