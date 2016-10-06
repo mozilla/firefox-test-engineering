@@ -1,6 +1,6 @@
-Firefox Test Engineering Bootcamp
-===============
-Hello! Welcome to the `Firefox Test Engineering`_  Bootcamp, an informal
+Firefox Test Engineering
+========================
+Hello! Welcome to `Firefox Test Engineering`_, an informal
 introduction to how to work with our group.
 
 .. _`Firefox Test Engineering`: https://wiki.mozilla.org/TestEngineering
