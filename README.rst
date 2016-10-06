@@ -1,5 +1,5 @@
-Firefox Test Engineering Bootcamp
-===============
+Firefox Test Engineering
+========================
 A tutorial on some of the basic things you'd want to know when
 contributing to `Firefox Test Engineering`_ at Mozilla.
 
@@ -16,7 +16,7 @@ Building locally
 The instructions below assume you have Python and `pip`_ installed. It is also
 strongly recommended that you create and activate a `virtualenv`_ first.
 
-If you'd like to build the bootcamp locally:
+If you'd like to build locally:
 
 .. code-block:: sh
 
@@ -35,7 +35,7 @@ changed.
 Licensing
 ---------
 
-Feel free to fork this repo or adapt its work for your own bootcamp. All work
+Feel free to fork this repo or adapt its work for your own needs. All work
 is licensed under a `Creative Commons Attribution`_.
 
 .. _`Creative Commons Attribution`: https://creativecommons.org/licenses/by/4.0/
