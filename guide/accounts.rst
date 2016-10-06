@@ -56,3 +56,8 @@ new employees get this permission automatically; there's no need to ask for it.
 
 .. _Bugzilla: https://bugzilla.mozilla.org/
 .. _`Bugzilla Permissions Page`: https://bugzilla.mozilla.org/page.cgi?id=get_permissions.html
+
+Amazon Web Services (AWS)
+-------------------------
+
+You (need to) complete me.
