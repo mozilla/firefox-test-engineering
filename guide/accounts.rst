@@ -32,7 +32,7 @@ Bugzilla
 --------
 
 Bugzilla_ is the issue-tracking system that the entire Mozilla Project uses.
-The vast majority of A-Team projects use Bugzilla to keep track of any planned
+Many of our projects use Bugzilla to keep track of any planned
 changes to or bugs in our projects.
 
 As a new contributor, Bugzilla is a useful tool for finding known issues that
