@@ -69,19 +69,6 @@ automated test infrastructure around it (mochitest, reftest, etc.).
 .. _Mercurial: https://www.mercurial-scm.org/
 
 
-DXR
----
-
-DXR is a project dedicated to indexing all the Firefox source code, plus other
-projects using the the Mercurial repository.
-
-- To look up source in Mozilla-Central (trunk) `https://dxr.mozilla.org/mozilla-central/source/`_
-- To look up a specific file in our tree use this url for a base: https://dxr.mozilla.org/mozilla-central/search?q=path%3A and add the file name to it.
-
-Pro tip: You can define a `bookmark keyword in Firefox <http://www-archive.mozilla.org/docs/end-user/keywords.html>`_.
-Then you can type "dxrf <filename>" in the URL bar.
-
-
 Pastebin
 ---------
 
