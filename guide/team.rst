@@ -1,7 +1,7 @@
 About the Firefox Test Engineering team
 =======================================
 
-The Firefox Test Engineering team Firefox Test Engineering oversees the test automation, infrastructure, and manual testing for all of Firefox's services, sites, and apps that are external to the core browsers (and in some cases within the browsers as well).
+The Firefox Test Engineering team oversees the test automation, infrastructure, and manual testing for all of Firefox's services, sites, and apps that are external to the core browsers (and in some cases within the browsers as well).
 Our mission is to provide testing and tools to positively impact the quality of Mozilla websites and services.
 
 How to Talk to Us
