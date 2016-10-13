@@ -1,7 +1,7 @@
 Git and GitHub
 ==============
 
-The sections below describe some A-team best practices for using Git and GitHub.
+The sections below describe some Firefox Test Engineering best practices for using Git and GitHub.
 For more general information on Git and how we use it, see the
 :doc:`../guide/software` and :doc:`../guide/development_process`
 sections of the guide.
