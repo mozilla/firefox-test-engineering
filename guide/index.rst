@@ -19,3 +19,8 @@ Let's get started!
    projects
    development_process
    curve
+
+New Employee Guide
+==================
+
+Placeholder, for now.
