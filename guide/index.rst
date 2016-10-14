@@ -8,6 +8,11 @@ Our goal here is to get you up and running to contribute as a test engineer. Thi
 useful to most Firefox Test Engineering projects, but some details (especially around
 software you need installed) may vary among projects.
 
+Baseline requirements include:
+- Some coding experience, Python and Selenium are used most often
+- A basic understanding of GitHub
+- a willingness to learn!
+
 Let's get started!
 
 .. toctree::
