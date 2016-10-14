@@ -22,7 +22,8 @@ Let's get started!
    accounts
    software
    projects
-   development_process
+   test_automation_process
+   qa_process
    curve
 
 New Employee Guide
