@@ -22,3 +22,8 @@ Others..
 Localization testing
 ---------------
 TBD
+
+Security testing
+----------------
+ZAP
+others...
