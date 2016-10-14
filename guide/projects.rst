@@ -9,7 +9,7 @@ You may also browse all of the open GitHub Issues for our projects. The `Firefox
 open Issues, just make sure to find one that no one else is working on. 
 
 .. _list of projects: https://wiki.mozilla.org/TestEngineering#Full_Project_List
-.. _Firefox Test Engineering Dashbaord: http://mozilla.github.io/mozwebqa-dashboard/#/issues
+.. _Firefox Test Engineering Dashboard: http://mozilla.github.io/mozwebqa-dashboard/#/issues
 
 Getting set up
 --------------
@@ -37,4 +37,4 @@ and get coding! Each project should have some information on where their tasks
 are tracked, generally on Bugzilla_ or GitHub Issues which are listed on the `Firefox Test Engineering Dashboard`_.
 
 .. _Bugzilla: https://bugzilla.mozilla.org
-.. _Firefox Test Engineering Dashbaord: http://mozilla.github.io/mozwebqa-dashboard/#/issues
+.. _Firefox Test Engineering Dashboard: http://mozilla.github.io/mozwebqa-dashboard/#/issues
