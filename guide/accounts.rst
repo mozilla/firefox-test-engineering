@@ -57,12 +57,14 @@ new employees get this permission automatically; there's no need to ask for it.
 .. _Bugzilla: https://bugzilla.mozilla.org/
 .. _`Bugzilla Permissions Page`: https://bugzilla.mozilla.org/page.cgi?id=get_permissions.html
 
+Limited Access
+==============
+Our team also uses a number of services which are accessible only with special permissions. If you under an NDA you may ask your mentor or manager for access.
+
 Amazon Web Services (AWS)
 -------------------------
-
-You (need to) complete me.
+AWS is currently used for much of our server and infrastructure testing. In the future it will likely hold a lot more of our test automation.
 
 TestRail
 --------
-
-Placeholder text.
+TestRail is being set up for use as a test case manager. In the future it will be more accessible and visible to community members.
