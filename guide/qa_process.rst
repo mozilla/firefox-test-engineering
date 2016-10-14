@@ -6,7 +6,7 @@ with exploratory testing and running test cases.
 
 Manual testing
 ---------------
-Quality is greatly improved by manual testing.
+Quality is greatly improved by manual testing. 
 
 Performance testing
 --------------
