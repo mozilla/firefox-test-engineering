@@ -1,9 +1,9 @@
-Development Process
+Test Automation Process
 ===================
 
 While the details vary, there is a general framework for the development
-process at Mozilla, which describes how a change goes from an idea in someone's
-head to deployed code. This document attempts to describe that process.
+process at Mozilla. This document attempts to describe that process. Test Automation 
+follows the general development process.
 
 Filing a Bug
 ------------
