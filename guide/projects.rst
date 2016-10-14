@@ -35,6 +35,8 @@ How to contribute
 Once you're set up to work on a project, you'll have to find a task to work on
 and get coding! Each project should have some information on where their tasks
 are tracked, generally on Bugzilla_ or GitHub Issues which are listed on the `Firefox Test Engineering Dashboard`_.
+The first step is to find a bug or an Issue that is open for contribution, and
+then adding a comment that you plan to work on it.
 
 .. _Bugzilla: https://bugzilla.mozilla.org
 .. _Firefox Test Engineering Dashboard: http://mozilla.github.io/mozwebqa-dashboard/#/issues
