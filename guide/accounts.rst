@@ -57,8 +57,8 @@ new employees get this permission automatically; there's no need to ask for it.
 .. _Bugzilla: https://bugzilla.mozilla.org/
 .. _`Bugzilla Permissions Page`: https://bugzilla.mozilla.org/page.cgi?id=get_permissions.html
 
-Limited Access
-==============
+Limited Access Accounts
+=======================
 Our team also uses a number of services which are accessible only with special permissions. If you under an NDA you may ask your mentor or manager for access.
 
 Amazon Web Services (AWS)
