@@ -25,6 +25,11 @@ installed using the `Homebrew`_ package manager.
 .. _VirtualBox: https://www.virtualbox.org/
 .. _Homebrew: http://brew.sh/
 
+Mobile
+------
+Mobile platforms such as iOS and Android are also an important part of our
+testing process. 
+
 Git
 ---
 
