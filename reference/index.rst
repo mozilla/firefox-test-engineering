@@ -16,3 +16,4 @@ This is where all the useful information goes that doesn't fit into the
    servers
    git_github
    glossary
+   video_tutorials
