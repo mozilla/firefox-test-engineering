@@ -65,6 +65,10 @@ Amazon Web Services (AWS)
 -------------------------
 AWS is currently used for much of our server and infrastructure testing. In the future it will likely hold a lot more of our test automation.
 
+Jenkins
+-------
+Jenkins is used for running our test automation. It is in the process of being moved into AWS.
+
 TestRail
 --------
 TestRail is being set up for use as a test case manager. In the future it will be more accessible and visible to community members.
