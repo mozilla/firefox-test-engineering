@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Firefox Test Engineering Bootcamp'
+project = u'Firefox Test Engineering Documentation'
 copyright = u'Mozilla. This work is licensed under a Creative Commons Attribution 4.0 International License'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -171,7 +171,7 @@ todo_include_todos = True
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'FxTestEngBootcampdoc'
+htmlhelp_basename = 'FxTestEngdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -185,7 +185,7 @@ htmlhelp_basename = 'FxTestEngBootcampdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'FxTestEng.tex', u'Firefox Test Engineering Bootcamp Documentation',
+  ('index', 'FxTestEng.tex', u'Firefox Test Engineering Documentation',
    u'Firefox Test Engineering', 'manual'),
 ]
 
