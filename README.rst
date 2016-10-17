@@ -3,6 +3,8 @@ Firefox Test Engineering
 A tutorial on some of the basic things you'd want to know when
 contributing to `Firefox Test Engineering`_ at Mozilla.
 
+This can be read on the `Firefox Test Engineering Read the Docs <http://firefox-test-engineering.readthedocs.io/en/latest/>`_.
+
 This document is based off of the excellent `webdev bootcamp`_ documentation.
 
 Patches are always welcome! If you'd like to contribute, fork and make a pull
