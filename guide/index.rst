@@ -29,4 +29,4 @@ Let's get started!
 New Employee Guide
 ==================
 
-Placeholder, for now.
+   continuous_integration
