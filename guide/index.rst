@@ -24,7 +24,6 @@ Let's get started!
    projects
    test_automation_process
    qa_process
-   curve
 
 New Employee Guide
 ==================
