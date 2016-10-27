@@ -218,7 +218,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'fxtestengbootcamp', u'Firefox Test Engineering Bootcamp Documentation',
+    ('index', 'fxtestengdocs', u'Firefox Test Engineering Documentation',
      [u'Firefox Test Engineering'], 1)
 ]
 
