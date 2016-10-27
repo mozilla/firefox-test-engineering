@@ -171,7 +171,7 @@ todo_include_todos = True
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'FxTestEngdoc'
+htmlhelp_basename = 'FxTestEngDoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -185,7 +185,7 @@ htmlhelp_basename = 'FxTestEngdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'FxTestEng.tex', u'Firefox Test Engineering Documentation',
+  ('index', 'FxTestEngDoc.tex', u'Firefox Test Engineering Documentation',
    u'Firefox Test Engineering', 'manual'),
 ]
 
