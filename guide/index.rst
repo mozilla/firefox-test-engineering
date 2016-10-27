@@ -29,4 +29,6 @@ Let's get started!
 New Employee Guide
 ==================
 
+.. toctree::
+   :maxdepth: 2
    continuous_integration
