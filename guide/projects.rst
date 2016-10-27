@@ -9,7 +9,7 @@ You may also browse all of the open GitHub Issues for our projects. The `Firefox
 open Issues, just make sure to find one that no one else is working on. 
 
 .. _list of projects: https://wiki.mozilla.org/TestEngineering#Full_Project_List
-.. _Firefox Test Engineering Dashboard: http://mozilla.github.io/mozwebqa-dashboard/#/issues
+.. _Firefox Test Engineering Dashboard: http://mozilla.github.io/fxtest-dashboard/#/issues
 
 Getting set up
 --------------
@@ -39,4 +39,4 @@ The first step is to find a bug or an Issue that is open for contribution, and
 then adding a comment that you plan to work on it.
 
 .. _Bugzilla: https://bugzilla.mozilla.org
-.. _Firefox Test Engineering Dashboard: http://mozilla.github.io/mozwebqa-dashboard/#/issues
+.. _Firefox Test Engineering Dashboard: http://mozilla.github.io/fxtest-dashboard/#/issues
