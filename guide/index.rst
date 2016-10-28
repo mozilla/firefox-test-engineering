@@ -6,7 +6,7 @@ you're considering volunteering as a contributor or are employed by Mozilla.
 
 Our goal here is to get you up and running to contribute as a test engineer. This guide attempts to be generic enough to be
 useful to most Firefox Test Engineering projects, but some details (especially around
-software you need installed) may vary among projects.
+software you need installed) might vary among projects.
 
 Baseline requirements include:
 - Some coding experience, Python and Selenium WebDriver are used most often
