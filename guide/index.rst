@@ -29,7 +29,7 @@ Let's get started!
 New Employee Guide
 ==================
 
-Welcome to the New Employee Guide - hopefully you've already gone through, or are familiar with tools, accounts, processes, etc. in our New Contributor Guide.
+Welcome to the New Employee Guide - hopefully you've already gone through, or are familiar with tools, accounts, processes, etc. in our New Contributor Guide.  An additional resource to familiarize yourself with is our `Firefox Test Engineering <https://mana.mozilla.org/wiki/display/TestEngineering>`_ space on Mana.
 
 .. toctree::
    :maxdepth: 2
