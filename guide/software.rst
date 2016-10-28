@@ -8,7 +8,7 @@ project you want to contribute to for details.
 The following information is a generic description of software or tools that
 you'll most likely need regardless of the project you work on.
 
-Operating Systems: Windows, Linux, or OS X?
+Operating Systems: Windows, Linux, or macOS/OS X?
 -------------------------------------------
 
 Generally speaking, automation and test tools need to run on the
@@ -17,9 +17,9 @@ development environments because the tooling is much more
 comprehensive. If you are a Windows user, you may want to use a
 program like `VirtualBox`_ to create a virtual machine running a
 Linux-based operating system. The rest of this guide assumes you are
-using OS X or a Linux-based operating system.
+using macOS/OS X or a Linux-based operating system.
 
-If you are running Mac OS X, most of the software mentioned here can be
+If you are running macOS/OS X, most of the software mentioned here can be
 installed using the `Homebrew`_ package manager.
 
 .. _VirtualBox: https://www.virtualbox.org/
