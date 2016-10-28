@@ -93,7 +93,7 @@ Python_ is a programming language that we use in many of our tools and
 automation frameworks. Our bigger web-based tools are often implemented
 using Django_, a Python-based framework for making websites.
 
-Most of our Python-based projects are developed to run under Python 2.
+Most of our Python-based projects are developed to run under Python 2, for now, but there are efforts underway to convert/write new libraries and packages in Python 3.
 
 .. seealso::
 
