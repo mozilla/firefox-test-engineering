@@ -28,7 +28,9 @@ installed using the `Homebrew`_ package manager.
 Mobile
 ------
 Mobile platforms such as iOS and Android are also an important part of our
-testing process. 
+testing process.
+
+A few of our mobile test-automation projects (particularly those written with Selenium WebDriver) use `Appium <http://appium.io/>`_.
 
 Git
 ---
