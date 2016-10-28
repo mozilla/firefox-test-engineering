@@ -73,6 +73,10 @@ automated test infrastructure around it (mochitest, reftest, etc.).
 
 .. _Mercurial: https://www.mercurial-scm.org/
 
+Etherpad
+--------
+
+`Etherpad <https://public.etherpad-mozilla.org/>`_ is a lightweight, real-time collaborative text-editing tool.  Be careful, as this instance is public, so please don't post any sensitive information.
 
 Pastebin
 ---------
