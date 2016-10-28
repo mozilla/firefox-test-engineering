@@ -60,21 +60,6 @@ control systems, you might enjoy stepping through some or all of this
 
 .. _Git: https://git-scm.com/
 
-Mercurial
----------
-
-Mercurial_ is a version control system similar to Git. We use it to
-track the source code to Firefox itself, as well as much of the
-automated test infrastructure around it (mochitest, reftest, etc.).
-
-.. seealso::
-
-   `Mozilla's Guide to Mercurial <https://developer.mozilla.org/en-US/docs/Mercurial>`_
-     The MDN page on Mercurial contains some useful links for getting
-     started.
-
-.. _Mercurial: https://www.mercurial-scm.org/
-
 Etherpad
 --------
 
@@ -86,7 +71,6 @@ Pastebin
 Pastebin is a tool that can be used to capture snippits of log or error messages for collaborative debugging.
 
 To "pastebin" something, `paste it here <https://pastebin.mozilla.org/>`_ and hand the link you're given after clicking "submit" to people on IRC.
-
 
 Python
 ------
@@ -105,5 +89,3 @@ Most of our Python-based projects are developed to run under Python 2, for now, 
 
 .. _Python: https://www.python.org/
 .. _Django: https://www.djangoproject.com/
-
-
