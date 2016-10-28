@@ -1,7 +1,7 @@
 Accounts
 ========
 
-We use a few websites to manage our test-automation and infrastructure code, bugs, test cases, and while it is possible to
+We use a few websites/services/applications to manage our test-automation and infrastructure code, bugs, test cases, etc., and while it is possible to
 get by without signing up for these sites, it's *strongly* recommended that
 you create accounts on these websites.
 
