@@ -33,4 +33,5 @@ Welcome to the New Employee Guide - hopefully you've already gone through, or ar
 .. toctree::
    :maxdepth: 2
    
+   fx-test-secrets
    continuous_integration
