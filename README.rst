@@ -5,13 +5,13 @@ contributing to `Firefox Test Engineering`_ at Mozilla.
 
 This can be read on the `Firefox Test Engineering Read the Docs <http://firefox-test-engineering.readthedocs.io/en/latest/>`_ website.
 
-This document is based off of the excellent `webdev bootcamp`_ documentation.
+This document is based off of the excellent `Webdev Bootcamp`_ documentation.
 
 Patches are always welcome! If you'd like to contribute, fork and make a pull
 request.
 
 .. _`Firefox Test Engineering`: https://wiki.mozilla.org/TestEngineering
-.. _`webdev bootcamp`: https://mozweb.readthedocs.io/
+.. _`Webdev Bootcamp`: https://mozweb.readthedocs.io/
 
 Building locally
 ----------------
