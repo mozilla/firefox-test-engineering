@@ -10,7 +10,7 @@ Quality is greatly improved by manual testing.
 
 Performance testing
 --------------
-* Webpagetest.org (through API too?)
+* `Webpagetest.org <https://www.webpagetest.org/>`_ (through API too?)
 * Through UI automation, exposing HAR files with the Navigation Timing API
 others...
 
