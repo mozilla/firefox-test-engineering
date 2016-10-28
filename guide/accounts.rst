@@ -71,4 +71,4 @@ Jenkins is used for running our test automation. It is in the process of being m
 
 TestRail
 --------
-TestRail is being set up for use as a test case manager. In the future it will be more accessible and visible to community members.
+`TestRail <https://wiki.mozilla.org/TestEngineering/Testrail>`_ is being set up for use as a test case manager. In the future it will be more accessible and visible to community members.
