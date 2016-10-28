@@ -65,6 +65,8 @@ Amazon Web Services (AWS)
 -------------------------
 AWS is currently used for much of our server and infrastructure testing. In the future it will likely hold a lot more of our test automation.
 
+You will very likely, at some point (sooner, rather than later) need an AWS account.  Please follow these `instructions on Mana <https://mana.mozilla.org/wiki/display/SVCOPS/Requesting+A+Dev+IAM+account+from+Cloud+Operations>`_ to get one.
+
 Jenkins
 -------
 Jenkins is used for running our test automation. It is in the process of being moved into AWS.
