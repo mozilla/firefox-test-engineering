@@ -32,23 +32,7 @@ For example, a news site rank being able to read existing articles as more
 important than being able to submit new articles. Ranking these parts allows
 you to make decisions about which to test more and what kind of tests to run.
 
-Unit and integration tests
---------------------------
-
-As a developer, the most common type of tests you will write are unit and
-integration tests. Unit tests test the smallest possible chunk of functionality
-and are isolated from each other. Integration tests test the interaction between
-these chunks.
-
-In practice, **any changes you make to a project should be tested in some
-automated way if it's reasonable to do so.** While each project varies,
-generally we're not that picky about having perfect unit tests or perfect test
-isolation. If you're unsure, look at existing tests for the project for
-guidance on the preferred style.
-
-Mozilla runs a `Jenkins server <https://ci.mozilla.org/>`_ for running these
-tests automatically for several projects. Other projects rely on `Travis CI`_
-for executing their tests.
+Some projects rely on `Travis CI`_ for executing their tests.
 
 For Django projects, these tests live within the ``tests`` module of each
 included Django application. For Node-based projects, they normally live in
