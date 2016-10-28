@@ -9,6 +9,7 @@ useful to most Firefox Test Engineering projects, but some details (especially a
 software you need installed) might vary among projects.
 
 Baseline requirements include:
+
 * some coding experience, Python and Selenium WebDriver are used most often
 * a basic understanding of GitHub
 * a willingness to learn!
