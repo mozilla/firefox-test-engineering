@@ -11,8 +11,8 @@ Quality is greatly improved by manual testing.
 Performance testing
 --------------
 * `Webpagetest.org <https://www.webpagetest.org/>`_ (through API too?)
-* Through UI automation, exposing HAR files with the Navigation Timing API
-others...
+* Through UI automation, exposing HAR files with the `Navigation Timing API <https://developer.mozilla.org/en-US/docs/Web/API/Navigation_timing_API>`_
+* others...
 
 Accessibility testing
 ----------------
