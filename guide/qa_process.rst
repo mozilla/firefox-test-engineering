@@ -16,7 +16,7 @@ others...
 
 Accessibility testing
 ----------------
-* Axe-core
+* `Axe-core <https://github.com/dequelabs/axe-core>`_
 * Others..
 
 Localization testing
