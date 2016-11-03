@@ -55,6 +55,7 @@ For projects using Git and GitHub, the process can be explained in more detail:
   ``master`` branch.
 - Make sure the current branch is the development branch, and create a new
   branch off of it for your feature.
+- Start `running test automation`_ to get familiar with the project.
 - Once your work is committed and ready for review, `push the branch`_ to your
   fork on GitHub and `submit a pull request`_.
 - If the project uses Bugzilla for issue tracking, `create an attachment
@@ -80,7 +81,7 @@ For projects using Git and GitHub, the process can be explained in more detail:
 .. _push the branch: https://help.github.com/articles/pushing-to-a-remote
 .. _submit a pull request: https://help.github.com/articles/using-pull-requests
 .. _create an attachment to your issue's bug pointing at the pull request: https://globau.wordpress.com/2013/10/21/github-pull-requests-and-bugzilla/
-
+.. _running test automation: https://developer.mozilla.org/en-US/docs/Mozilla/QA/Running_Web_QA_automated_tests
 
 Mercurial
 ^^^^^^^^^
