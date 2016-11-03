@@ -17,7 +17,9 @@ Getting set up
 Once you've identified the project you want to work on, you should get the
 test automation running locally. All projects have (or should have) a README
 file in their source tree that either describes this process or links to
-documentation that does.
+documentation that does. If you haven't already, you will want to review the `New Contributor Guide`_.
+
+.. _New Contributor Guide:  http://firefox-test-engineering.readthedocs.io/en/latest/guide/index.html
 
 Find a mentor
 -------------
