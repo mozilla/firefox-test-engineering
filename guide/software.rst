@@ -59,33 +59,3 @@ control systems, you might enjoy stepping through some or all of this
       Git in a terminal. Useful if you are not used to using a terminal yet.
 
 .. _Git: https://git-scm.com/
-
-Etherpad
---------
-
-`Etherpad <https://public.etherpad-mozilla.org/>`_ is a lightweight, real-time collaborative text-editing tool.  Be careful, as this instance is public, so please don't post any sensitive information.
-
-Pastebin
----------
-
-Pastebin is a tool that can be used to capture snippits of log or error messages for collaborative debugging.
-
-To "pastebin" something, `paste it here <https://pastebin.mozilla.org/>`_ and hand the link you're given after clicking "submit" to people on IRC.
-
-Python
-------
-
-Python_ is a programming language that we use in many of our tools and
-automation frameworks. Our bigger web-based tools are often implemented
-using Django_, a Python-based framework for making websites.
-
-Most of our Python-based projects are developed to run under Python 2, for now, but there are efforts underway to convert/write new libraries and packages in Python 3.
-
-.. seealso::
-
-   `The Hitchhiker's Guide to Python <http://docs.python-guide.org/en/latest/>`_
-      A useful guide for beginner and expert Python developers. If you need to
-      install Python on your computer, this guide will help!
-
-.. _Python: https://www.python.org/
-.. _Django: https://www.djangoproject.com/
