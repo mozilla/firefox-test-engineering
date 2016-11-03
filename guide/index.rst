@@ -24,7 +24,6 @@ Let's get started!
    software
    projects
    test_automation_process
-   qa_process
 
 New Employee Guide
 ==================
