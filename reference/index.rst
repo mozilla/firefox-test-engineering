@@ -11,6 +11,7 @@ This is where all the useful information goes that doesn't fit into the
    html-style
    js-style
    css-style
+   continuous_integration
    security
    testing
    servers
