@@ -12,11 +12,14 @@ There are a few channels of communication for our group:
 - The #fx-test channel on `irc.mozilla.org <https://wiki.mozilla.org/IRC>`_.
 - The `firefox-test-engineering@mozilla.com Google Group/mailing list
   <https://groups.google.com/a/mozilla.com/forum/#!aboutgroup/firefox-test-engineering>`_.
+- More details about our team can be found on the `Firefox Test Engineering page on QMO`_.
 
 If you ever have a question, regardless of how difficult it is, you can share
 it on those channels and someone should help you out. *Don't be afraid to ask
 questions!* You're trying to help us, so it's only fair that we try to help you
 in return.
+
+.. _Firefox Test Engineering page on QMO: https://quality.mozilla.org/teams/test-engineering/
 
 Find a Mentor!
 --------------
