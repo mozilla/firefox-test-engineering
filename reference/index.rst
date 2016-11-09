@@ -5,16 +5,8 @@ This is where all the useful information goes that doesn't fit into the
 :doc:`/guide/index`.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   python-style
-   html-style
-   js-style
-   css-style
-   continuous_integration
-   security
-   testing
-   servers
-   git_github
-   glossary
-   video_tutorials
+   Automation/index
+   Mozilla specific information/index
+   Testing/index
