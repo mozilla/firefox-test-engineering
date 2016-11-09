@@ -65,12 +65,11 @@ For projects using Git and GitHub, the process can be explained in more detail:
 
 .. seealso::
 
-   :doc:`/reference/git_github`
-      A set of best practices for using Git on the A-team.
+   :doc:`/reference/Automation/Python Styleguide`
+      A useful styleguide for Python best practices.
 
-   :doc:`/reference/glossary`
-      A glossary of specialized terms used within the A-Team, including some
-      abbreviations used for code review, such as ``r?``, ``r+``, and ``r-``.
+   :doc:`/reference/Automation/Git and GitHub`
+      A short list of tips and tricks for using GitHub.
 
    `GitHub Flow <https://guides.github.com/introduction/flow/>`_
       A process for branching, reviewing, and merging code that is very similar
