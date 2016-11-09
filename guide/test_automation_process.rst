@@ -115,6 +115,13 @@ A bug is usually marked as resolved when it is merged into the codebase.
 Depending on the issue tracker being used, the bug may also be marked as
 verified once the changes are tested and approved.
 
+Mobile
+------
+Mobile platforms such as iOS and Android are also an important part of our
+testing process.
+
+A few of our mobile test-automation projects (particularly those written with Selenium WebDriver) use `Appium <http://appium.io/>`_.
+
 Next steps
 ----------
 
