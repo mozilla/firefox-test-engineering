@@ -25,12 +25,6 @@ installed using the `Homebrew`_ package manager.
 .. _VirtualBox: https://www.virtualbox.org/
 .. _Homebrew: http://brew.sh/
 
-Mobile
-------
-Mobile platforms such as iOS and Android are also an important part of our
-testing process.
-
-A few of our mobile test-automation projects (particularly those written with Selenium WebDriver) use `Appium <http://appium.io/>`_.
 
 Git
 ---
