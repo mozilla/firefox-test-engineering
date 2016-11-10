@@ -1,47 +1,31 @@
 Test Automation Process
 ===================
 
-While the details vary, there is a general framework for the development
-process at Mozilla. This document attempts to describe that process. Test Automation 
-follows the general development process.
+While the details vary, there is a general framework for working on Firefox
+Test Engineering test automation projects. This document attempts to describe that process.
 
-Filing a Bug
-------------
+Finding a Bug or GitHub Issue
+---------------------------
 
-The first thing that happens is that a bug is filed in the bug tracker of
-choice for the project. A well-written bug includes:
+The first step is finding a good bug or GitHub Issue to work on. 
+- GitHub Issues are written when new tests need to be written, or changes need to be made to fix existing flaky or failing tests. They include a description of the
+steps and expected results. You can find a comprehensive list of open GitHub Issues for our team on the `Firefox Test Engineering Dashboard`_.
+- Unclaimed Issues are open and available for anyone to work on. You will know if it is unclaimed by reading the comments and checking if it is already assigned to someone. Make sure to comment on the Issue when you find one that you plan to complete. 
+- Bugs are written when specific features, tests or fixes are to be implemented. Bugs that are marked as 'mentored' are a good place to start as you will have support while learning the project.
+- Finding a mentored bug that fits your interests and skill set can be challenging. We recommend going to `Bugs Ahoy`_ to find mentored bugs, filtered by skills or areas of interest. Know that listed bugs will include all Mozilla projects, not just ones within the Firefox Test Engineering team.
+- Commenting on a bug is generally a good way to indicate you will work on it. However, some teams prefer that you submit a pull request rather than a comment. Contact the bug author if you have questions.
 
-- A description of the issue, possibly including steps to reproduce or a link
-  to an example if the issue is a problem with the project.
-- Information or links to any conversation that is happening outside of the
-  bug, such as a mailing list thread.
-- If appropriate, a specified mentor to help new contributors work on the
-  issue.
 
-Depending on the project, the bug may be triaged and assigned a priority and/or
-milestone, or it may be added to another system for tracking work, such as Trello_.
+.. _Firefox Test Engineering Dashboard: https://mozilla.github.io/fxtest-dashboard/#/issues
+.. _Bugs Ahoy:  https://www.joshmatthews.net/bugsahoy/
 
-.. _Trello: https://trello.com/
+Working on the Bug/Issue
+-----------------------
+After claiming a Bug/Issue, you will submit your pull request with your work in a GitHub feature branch. 
 
-Working on the Bug
-------------------
+Any mentors or project owners assigned to it will review your work and give constructive feedback and instructions for any changes that need to be made.  After the pull request is completed to satisfaction it will be merged into the project code.
 
-Either someone will voluntarily take a bug, or, in the case of projects with
-assigned developers actively working on them, it will be assigned to a
-developer.
-
-The process of fixing a bug involves:
-
-- Marking the bug as assigned to you so that others do not work on the bug at
-  the same time.
-- Creating a feature branch in your version control system to isolate your work
-  from the work of others.
-- Making the changes required to fix the issue or implement the new feature.
-- Writing automated tests to ensure that your changes work as expected, as well
-  as manually testing on your personal development instance of the project.
-- Submitting your changes for review by another developer on the project, and
-  updating your changes in response to the review.
-- Merging your feature branch back into the main branch used for development.
+The Bug/Issue will be resolved and closed after a successful code merge.
 
 
 Git and GitHub
@@ -82,44 +66,15 @@ For projects using Git and GitHub, the process can be explained in more detail:
 .. _create an attachment to your issue's bug pointing at the pull request: https://globau.wordpress.com/2013/10/21/github-pull-requests-and-bugzilla/
 .. _running test automation: https://developer.mozilla.org/en-US/docs/Mozilla/QA/Running_Web_QA_automated_tests
 
-Mercurial
-^^^^^^^^^
 
-For projects using Mercurial (for example, Talos_ or Mozbase_) the
-process looks like this:
-
-- Check out the source code of the project you want to contribute to
-  (most likely `mozilla-central`_).
-- Set up a `mercurial queue`_ for your set of changes (or
-  alternatively, use `mercurial bookmarks`_ to do the same thing).
-- Finish your work and commit the changes, then `submit them as a patch`_.
-
-.. _Talos: https://wiki.mozilla.org/Buildbot/Talos
-.. _Mozbase: https://wiki.mozilla.org/Auto-tools/Projects/MozBase
-.. _mozilla-central: https://developer.mozilla.org/en-US/docs/mozilla-central
-.. _mercurial queue: https://developer.mozilla.org/en-US/docs/Mercurial_Queues
-.. _mercurial bookmarks: https://www.mercurial-scm.org/wiki/NamedBranches
-.. _submit them as a patch: https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/How_to_Submit_a_Patch#Submitting_the_patch
-
-Testing and Resolution
-----------------------
-
-Once a change is merged into the codebase, it needs to be tested in
-whatever environment it is going to be running in. You should do this
-yourself before submitting a patch, but typically a core project
-member will do some additional verification and let you know if any
-effort on your end is required.
-
-A bug is usually marked as resolved when it is merged into the codebase.
-Depending on the issue tracker being used, the bug may also be marked as
-verified once the changes are tested and approved.
 
 Mobile
 ------
 Mobile platforms such as iOS and Android are also an important part of our
-testing process.
+testing process. Testing is done on mobile platforms, and there are also mobile-specific tests.
 
 A few of our mobile test-automation projects (particularly those written with Selenium WebDriver) use `Appium <http://appium.io/>`_.
+
 
 Next steps
 ----------
