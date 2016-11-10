@@ -16,6 +16,8 @@ changes we make to our code.
 Once you've `created a GitHub account <https://github.com/join>`_ , you can check out the `GitHub help site`_
 for guides on the basics of using Git and GitHub.
 
+Also recommended is reading :doc:`/reference/Automation/`.
+
 .. seealso::
 
    `Mozilla Services on GitHub <https://github.com/mozilla-services/>`_
