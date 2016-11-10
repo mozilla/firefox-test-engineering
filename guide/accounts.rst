@@ -19,6 +19,7 @@ for guides on the basics of using Git and GitHub.
 .. seealso::
 
    :doc:`/reference/Automation/`
+
    `Mozilla Services on GitHub <https://github.com/mozilla-services/>`_
       Mozilla Services' organization account on GitHub.
    `Mozilla on GitHub <https://github.com/mozilla/>`_
