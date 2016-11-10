@@ -9,8 +9,7 @@ Finding a Bug or GitHub Issue
 
 The first step is finding a good bug or GitHub Issue to work on. 
 
-- GitHub Issues are written when new tests need to be written, or changes need to be made to fix existing flaky or failing tests. They include a description of the
-steps and expected results. You can find a comprehensive list of open GitHub Issues for our team on the `Firefox Test Engineering Dashboard`_.
+- GitHub Issues are written when new tests need to be written, or changes need to be made to fix existing flaky or failing tests. They include a description of the steps and expected results. You can find a comprehensive list of open GitHub Issues for our team on the `Firefox Test Engineering Dashboard`_.
 
 - Unclaimed Issues are open and available for anyone to work on. You will know if it is unclaimed by reading the comments and checking if it is already assigned to someone. Make sure to comment on the Issue when you find one that you plan to complete. 
 
