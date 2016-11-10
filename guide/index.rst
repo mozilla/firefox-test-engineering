@@ -20,11 +20,11 @@ Let's get started!
    :maxdepth: 2
 
    team
-   accounts
-   software
    projects
    test_automation_process
-
+   accounts
+   software
+   
 New Employee Guide
 ==================
 
