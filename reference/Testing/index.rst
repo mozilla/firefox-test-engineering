@@ -8,5 +8,4 @@ Testing reference material.
 
    continuous_integration
    security
-   servers
    testing
