@@ -61,13 +61,17 @@ new employees get this permission automatically; there's no need to ask for it.
 
 Limited Access Accounts
 =======================
-Our team also uses a number of services which are accessible only with special permissions. If you under an `NDA <https://wiki.mozilla.org/NDA>`_ you may ask your mentor or manager for access.
+Our team also uses a number of services which are accessible only with special accounts and/or permissions. If you under an `NDA <https://wiki.mozilla.org/NDA>`_ you may ask your mentor or manager for access.
 
 Amazon Web Services (AWS)
 -------------------------
 AWS is currently used for much of our server and infrastructure testing. In the future it will likely hold a lot more of our test automation.
 
 You will very likely, at some point (sooner, rather than later) need a Mozilla-privileged AWS account.  Please follow these `instructions on Mana <https://mana.mozilla.org/wiki/display/SVCOPS/Requesting+A+Dev+IAM+account+from+Cloud+Operations>`_ to get one.
+
+LastPass
+--------
+
 
 Jenkins
 -------
