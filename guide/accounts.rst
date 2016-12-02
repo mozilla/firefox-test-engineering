@@ -63,6 +63,10 @@ Limited Access Accounts
 =======================
 Our team also uses a number of services which are accessible only with special accounts and/or permissions. If you under an `NDA <https://wiki.mozilla.org/NDA>`_ you may ask your mentor or manager for access.
 
+fx-test-pubkeys
+---------------
+Used to keep our public keys, which we use for access control/authentication in our AWS' EC2 environments/instances.  Please follow the instructions at https://github.com/mozilla-services/fx-test-pubkeys to generate and upload yours.
+
 Amazon Web Services (AWS)
 -------------------------
 AWS is currently used for much of our server and infrastructure testing. In the future it will likely hold a lot more of our test automation.
