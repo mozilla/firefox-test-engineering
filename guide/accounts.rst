@@ -13,7 +13,7 @@ source code, as well as tools we use for collaboration and code review. GitHub
 is based on Git_, a distributed version control system that lets us track the
 changes we make to our code.
 
-Once you've `created a GitHub account <https://github.com/join>`_ , you can check out the `GitHub help site`_
+Once you've `created a GitHub account <https://github.com/join>`_, you can check out the `GitHub help site`_
 for guides on the basics of using Git and GitHub.
 
 .. seealso::
