@@ -13,7 +13,7 @@ The original template used for this guide is based off of the excellent `Mozilla
 `GitHub repository`_. Feel free to send pull requests if you see something that could be improved.
 
 .. _`Mozilla WebDev bootcamp`: https://mozweb.readthedocs.io/
-.. _`GitHub repository`: https://github.com/mozilla/ateam-bootcamp
+.. _`GitHub repository`: https://github.com/mozilla/firefox-test-engineering/
 
 
 .. toctree::
