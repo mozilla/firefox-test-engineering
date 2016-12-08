@@ -89,6 +89,12 @@ Python
    - `nose-progressive`_ is a nose plugin that makes test output much easier
      to read.
 
+- pytest_ is also a commonly used testing library for Python, with a great
+  plugin ecosystem. Some common plugins we're using include
+
+   - `pytest-testrail`_ for sending test run details to our `Testrail` server
+   - `pytest-bugzilla-notifier`_ for sending test summaries to Bugzilla tickets
+
 - `factory-boy`_ replaces test fixtures with factories that generate test
   objects easily. It integrates with the Django ORM to generate model instances
   with a very conveninent syntax.
@@ -101,6 +107,9 @@ Python
 .. _nose-progressive: https://github.com/erikrose/nose-progressive
 .. _factory-boy: https://factoryboy.readthedocs.io/
 .. _Mock: http://www.voidspace.org.uk/python/mock/
+.. _pytest: http://pytest.org
+.. _pytest-testrail: https://pypi.python.org/pypi/pytest-testrail
+.. _pytest-bugzilla-notifier: https://pypi.python.org/pypi/pytest-bugzilla-notifier/0.1.2
 
 Node / JavaScript
 ^^^^^^^^^^^^^^^^^
