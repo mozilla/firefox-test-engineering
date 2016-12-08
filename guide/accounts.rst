@@ -75,7 +75,7 @@ You will very likely, at some point (sooner, rather than later) need a Mozilla-p
 
 LastPass
 --------
-We use LastPass to securely share miscellaneous credentials (usernames/passwords/API keys).  Please follow the instructions on https://mana.mozilla.org/wiki/display/SD/LastPass to request an account for your Mozilla email address.
+We use LastPass to securely share miscellaneous credentials (usernames/passwords/API keys).  Please follow the instructions  https://mana.mozilla.org/wiki/display/TestEngineering/LastPass to request and use an account with your Mozilla email address.
 
 Jenkins
 -------
