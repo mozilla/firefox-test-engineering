@@ -71,14 +71,38 @@ For projects using Git and GitHub, the process can be explained in more detail:
 .. _running test automation: https://developer.mozilla.org/en-US/docs/Mozilla/QA/Running_Web_QA_automated_tests
 
 
-
 Mobile
 ------
 Mobile platforms such as iOS and Android are also an important part of our
 testing process. Testing is done on mobile platforms, and there are also mobile-specific tests.
 
-A few of our mobile test-automation projects (particularly those written with Selenium WebDriver) use `Appium <http://appium.io/>`_.
+iOS
+^^^^^^^^^^^^^^
+Currently we use Apple's XCUITest framework in Swift language. The test can be written and executed on
+Apple's XCode App, and you can see some of our `examples in the Firefox for iOS`_ repository. Some of the older
+Tests are in `KIFTest framework`_, but since they use undocumented Apple APIs, and XCUITest framework has been
+maturing, we are trying to create new tests in XCUITest framework.
 
+You can learn more about basics of Swift and XCUITest from below websites:
+
+- `Apple Developer Site`_.
+
+- `Swift Language Reference`_.
+
+- `UI Testing Cheat Sheet and Examples`_.
+
+.. _examples in the Firefox for iOS: https://github.com/mozilla-mobile/firefox-ios/tree/master/XCUITests
+.. _KIFTest framework: https://github.com/mozilla-mobile/firefox-ios/tree/master/UITests
+.. _Apple Developer Site: https://developer.apple.com/library/content/documentation/DeveloperTools/Conceptual/testing_with_xcode/chapters/09-ui_testing.html#//apple_ref/doc/uid/TP40014132-CH13-SW1
+.. _Swift Language Reference: https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AboutTheLanguageReference.html
+.. _UI Testing Cheat Sheet and Examples: http://masilotti.com/ui-testing-cheat-sheet/
+Android
+^^^^^^^^^^^^^^
+A few of our Android mobile test-automation projects (particularly those written with Selenium WebDriver) use 
+`Appium <http://appium.io/>`_.  For Firefox for Android testing automation that does not involve the testing 
+of GeckoView, there is a `proof-of-concept test environment`_ using Appium.
+
+.. _proof-of-concept test environment: https://github.com/npark-mozilla/CG_Mobile_Test
 
 Next steps
 ----------
