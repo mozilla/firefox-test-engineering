@@ -73,12 +73,11 @@ For projects using Git and GitHub, the process can be explained in more detail:
 
 Mobile
 ------
-Mobile platforms such as iOS and Android are also an important part of our
-testing process. Testing is done on mobile platforms, and there are also mobile-specific tests.
+Mobile platforms such as iOS and Android are also an important part of our testing process. Testing is done on mobile platforms, and there are also mobile-specific tests.
 
 iOS
 ^^^^^^^^^^^^^^
-Currently we use Apple's XCUITest framework in Swift language. The test can be written and executed on
+Currently we use Apple's XCUITest framework in Swift. The test can be written and executed on
 Apple's XCode App, and you can see some of our `examples in the Firefox for iOS`_ repository. Some of the older
 Tests are in `KIFTest framework`_, but since they use undocumented Apple APIs, and XCUITest framework has been
 maturing, we are trying to create new tests in XCUITest framework.
