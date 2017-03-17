@@ -1,14 +1,17 @@
 Git and GitHub
 ==============
 
-The sections below describe some Firefox Test Engineering best practices for using Git and GitHub.
-For more general information on Git here is a link to `Good Resources`_ for Learning Git and GitHub.
+The sections below describe some Firefox Test Engineering best practices for
+using Git and GitHub. For more general information on Git here is a link to
+`Good Resources`_ for Learning Git and GitHub.
 
 .. _Good Resources: https://help.github.com/articles/good-resources-for-learning-git-and-github/
 
 Issues
 ------
-You can find an Issue to work on by going to the `Firefox Test Engineering Dashboard`_. Any unclaimed Issue is available to you to work on. You can find out more about our process in the :doc:`guide/index`.
+You can find an issue to work on by going to the
+`Firefox Test Engineering Dashboard`_. Any unclaimed Issue is available to you
+to work on. You can find out more about our process in the :doc:`guide/index`.
 
 .. _Firefox Test Engineering Dashboard: https://mozilla.github.io/fxtest-dashboard/#/issues
 

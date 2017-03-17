@@ -21,3 +21,4 @@ The original template used for this guide is based off of the excellent `Mozilla
 
    guide/index
    reference/index
+   resources/index

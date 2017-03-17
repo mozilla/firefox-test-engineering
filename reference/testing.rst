@@ -83,13 +83,7 @@ General
 Python
 ^^^^^^
 
-- nose_ is a highly recommended testing library for Python.
-
-   - `django-nose`_ integrates nose into a Django test runner.
-   - `nose-progressive`_ is a nose plugin that makes test output much easier
-     to read.
-
-- pytest_ is also a commonly used testing library for Python, with a great
+- pytest_ is a highly recommended testing library for Python, with a great
   plugin ecosystem. Some common plugins we're using include
 
    - `pytest-testrail`_ for sending test run details to our `Testrail` server
@@ -102,9 +96,6 @@ Python
 - Mock_ is one of the most popular libraries for replacing parts of the system
   you're testing with mock objects and asserting things about their behavior.
 
-.. _nose: https://nose.readthedocs.io/
-.. _django-nose: https://github.com/django-nose/django-nose
-.. _nose-progressive: https://github.com/erikrose/nose-progressive
 .. _factory-boy: https://factoryboy.readthedocs.io/
 .. _Mock: http://www.voidspace.org.uk/python/mock/
 .. _pytest: http://pytest.org

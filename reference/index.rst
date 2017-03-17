@@ -1,12 +1,15 @@
-Resources
+Reference
 =========
 
 This is where all the useful information goes that doesn't fit into the
 :doc:`/guide/index`.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   Automation/index
-   Mozilla specific information/index
-   Testing/index
+   git_github
+   python-style
+   testing
+   pypom
+   ci
+   glossary

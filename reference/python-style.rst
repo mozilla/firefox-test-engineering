@@ -29,7 +29,8 @@ not::
 
     import os, sys
 
-Separate imports into groups with a line of whitespace: standard library; (if a web app) Django or other framework; third-party; and local imports::
+Separate imports into groups with a line of whitespace: standard library;
+(if a web app) Django or other framework; third-party; and local imports::
 
     import os
     import sys
@@ -98,12 +99,6 @@ Good::
 
     def my_code():
         foo.you()  # oh you...
-
-.. seealso::
-
-   `baked <https://pypi.python.org/pypi/baked>`_
-      A tool for automatically checking the import order rules listed above.
-
 
 Whitespace matters
 ------------------
