@@ -24,7 +24,7 @@ Let's get started!
    test_automation_process
    accounts
    software
-   
+
 New Employee Guide
 ==================
 
@@ -33,5 +33,5 @@ Welcome to the New Employee Guide - hopefully you've already gone through, or ar
 .. toctree::
    :maxdepth: 2
 
-   /reference/Testing/continuous_integration
+   /reference/ci
    fx-test-secrets
