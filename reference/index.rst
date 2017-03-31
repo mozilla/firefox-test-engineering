@@ -13,4 +13,5 @@ This is where all the useful information goes that doesn't fit into the
    activedata
    pypom
    ci
+   irc-bot
    glossary
