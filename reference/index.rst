@@ -11,6 +11,7 @@ This is where all the useful information goes that doesn't fit into the
    python-style
    testing
    activedata
+   treeherder
    pypom
    ci
    irc-bot
