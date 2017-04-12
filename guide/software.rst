@@ -58,3 +58,5 @@ control systems, you might enjoy stepping through some or all of this
 Load-Testing Tools
 ------------------
 `Molotov <https://github.com/loads/molotov>`_ is used for writing and running load tests.
+
+`Ardere <https://github.com/loads/ardere>`_ is another tool (which replaces `loads-broker <https://github.com/loads/loads-broker>`_) to run load tests at scale/distributed.
