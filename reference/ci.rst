@@ -16,7 +16,7 @@ the `Mozilla VPN`_.
 
 Web QA staging
 --------------
-Likely to be retired soon, the Web QA staging Jenkins instance is still used
+Retiring soon (see `bug 1355917 <https://bugzilla.mozilla.org/show_bug.cgi?id=1355917>`_), the Web QA staging Jenkins instance is still used
 for adhoc testing of web automation and plugin updates. It's available at
 http://webqa-ci-staging1.qa.scl3.mozilla.com:8080 and requires a connection to
 the `Mozilla VPN`_. See the `documentation <https://mana.mozilla.org/wiki/display/QA/webqa-ci-staging1.qa.scl3.mozilla.com>`_
