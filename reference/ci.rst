@@ -7,14 +7,7 @@ Our production Jenkins instance is available at
 https://fx-test-jenkins.stage.mozaws.net and access is restricted according to
 this `documentation <https://mana.mozilla.org/wiki/display/TestEngineering/fx-test-jenkins.stage.mozaws.net>`_.
 
-Services staging
-----------------
-Our Services staging Jenkins instance is used for adhoc testing of services
-automation and plugin updates. It's available at
-https://services-qa-jenkins.stage.mozaws.net:8443 and requires a connection to
-the `Mozilla VPN`_.
-
-Sandbox
+Sandbox, aka "Dev Jenkins"
 -------
 Our sandbox Jenkins instance is available at
 https://fx-test-jenkins-dev.stage.mozaws.net:8443 and requires a connection to
