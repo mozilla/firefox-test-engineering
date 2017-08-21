@@ -59,7 +59,7 @@ new employees get this permission automatically; there's no need to ask for it.
 
 Limited Access Accounts
 =======================
-Our team also uses a number of services which are accessible only with special accounts and/or permissions. If you under an `NDA <https://wiki.mozilla.org/NDA>`_ you may ask your mentor or manager for access.
+Our team also uses a number of services which are accessible only with special accounts and/or permissions. If you're under an `NDA <https://wiki.mozilla.org/NDA>`_ you may ask your mentor or manager for access.
 
 fx-test-pubkeys
 ---------------
