@@ -4,8 +4,8 @@ Continuous Integration
 Production
 ----------
 Our production Jenkins instance is available at
-https://fx-test-jenkins.stage.mozaws.net and access is restricted according to
-this `documentation <https://mana.mozilla.org/wiki/display/TestEngineering/fx-test-jenkins.stage.mozaws.net>`_.
+https://qa-master.fxtest.jenkins.stage.mozaws.net/ and access is restricted according to
+this `documentation <https://mana.mozilla.org/wiki/display/TestEngineering/qa-master.fxtest.jenkins.stage.mozaws.net>`_.
 
 Sandbox, aka "Dev Jenkins"
 -------
