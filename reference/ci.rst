@@ -56,7 +56,7 @@ Ops-QA Pipeline
   * Jenkinsfile, which calls testProject() with the project name (e.g. https://github.com/Kinto/kinto-integration-tests/blob/f61f4db94eeaf7486e8c329c6294ad9b71585611/Jenkinsfile
   * run file, which pulls and runs the Docker image (e.g. https://github.com/Kinto/kinto-integration-tests/blob/f61f4db94eeaf7486e8c329c6294ad9b71585611/run)
   * Dockerfile which sets up the environment, and runs the tests (e.g. https://github.com/Kinto/kinto-integration-tests/blob/f61f4db94eeaf7486e8c329c6294ad9b71585611/Dockerfile)
-3. Create a Jenkins job with the following syntax: project.test_type_test_env (e.g. kinto.integration.stage), using the Pipeline from SCM option, and pointing the Jenkinsfile
+3. Create a Jenkins job with the following syntax: project.test_env (e.g. kinto.stage), using the Pipeline from SCM option, and pointing the Jenkinsfile
 4. Once your project is set up properly (runs, and hopefully passes):
 5. File a bug (example: `bug 1384404 <https://bugzilla.mozilla.org/show_bug.cgi?id=1384404>`_, in the Cloud Services product, FXTest-infra component, requesting Ops enable your jobs in their pipeline
 6. Next, from Ops' side, there is a `qaTest.groovy file <https://github.com/mozilla-services/cloudops-deployment/blob/c6a09fa1a62d1cddf3a3b560e92aca55a497d0d4/libs/pipeline/vars/qaTest.groovy#L13>`_ which authenticates with QA (prod) Jenkins, and will run /job/${project}.${envName}
