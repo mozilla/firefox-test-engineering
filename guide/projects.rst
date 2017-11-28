@@ -3,12 +3,12 @@ Finding a Project
 
 Before you can contribute to Mozilla, you need to find a project that you're
 interested in contributing to. We currently maintain a `list of
-projects`_ on our team's wiki.
+projects`_ on Service Book.
 
 You may also browse all of the open GitHub Issues for our projects. The `Firefox Test Engineering Dashboard`_ lists 
 open Issues, just make sure to find one that no one else is working on. 
 
-.. _list of projects: https://wiki.mozilla.org/TestEngineering#Full_Project_List
+.. _list of projects: https://servicebook.stage.mozaws.net/info
 .. _Firefox Test Engineering Dashboard: http://mozilla.github.io/fxtest-dashboard/#/issues
 
 Getting set up
