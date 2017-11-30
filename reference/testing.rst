@@ -49,7 +49,7 @@ we use tools like Selenium_ to simulate users interacting with the website.
 For many sites, these tests are written by WebQA contributors and run against
 the various :doc:`server environments <servers>`.
 
-.. _Selenium: https://wiki.mozilla.org/Websites/Domain_List
+.. _Selenium: http://www.seleniumhq.org/projects/webdriver/
 
 Manual testing
 --------------
