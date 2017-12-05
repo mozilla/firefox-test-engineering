@@ -3,13 +3,13 @@ Continuous Integration
 
 Production
 ----------
-Our production Jenkins instance is available at
+Our **production** Jenkins instance is available at
 https://qa-master.fxtest.jenkins.stage.mozaws.net/ and access is restricted according to
 this `documentation <https://mana.mozilla.org/wiki/display/TestEngineering/qa-master.fxtest.jenkins.stage.mozaws.net>`_.
 
 Sandbox, aka "Dev Jenkins"
 -------
-Our sandbox Jenkins instance is available at
+Our **sandbox** Jenkins instance is available at
 https://qa-preprod-master.fxtest.jenkins.stage.mozaws.net/ and requires a connection to
 the `Mozilla VPN`_. See the `documentation <https://mana.mozilla.org/wiki/display/TestEngineering/qa-preprod-master.fxtest.jenkins.stage.mozaws.net>`_
 for further information regarding this instance.
