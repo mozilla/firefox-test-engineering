@@ -55,18 +55,18 @@ Ops-QA Pipeline
 **The current flow for a project integrated into the Cloud Ops deploy pipeline is as follows:**
 
 1. A tagged or pushed build from dev deploys to staging
-2. Cloud Ops' deploy-pipeline script calls ``test_stage``, which remotely runs the project's corresponding staging ("stage") test job, e.g. kinto.stage, in our Jenkins instance
+2. Cloud Ops' deploy-pipeline script calls ``test_stage()``, which remotely runs the project's corresponding staging ("stage") test job, e.g. kinto.stage, in our Jenkins instance
 3. If our tests pass (returning exit code/return status of "0"), and after manual confirmation from Ops, the build gets promoted and pushed to production
-4. Now, Cloud Ops' deploy-pipeline script calls ``check_production``, which remotely runs the project's corresponding production ("prod") job, e.g. kinto.prod, in our Jenkins instance
+4. Now, Cloud Ops' deploy-pipeline script calls ``check_production()``, which remotely runs the project's corresponding production ("prod") job, e.g. kinto.prod, in our Jenkins instance
 
 **Getting a project's tests into the deploy pipeline:**
 
 1. Add/edit the project and its test repositories into `Service Book <https://servicebook.stage.mozaws.net/>`_
 2. Your test repo should have the following:
-  * Jenkinsfile, which calls testProject() with the project name (e.g. https://github.com/Kinto/kinto-integration-tests/blob/f61f4db94eeaf7486e8c329c6294ad9b71585611/Jenkinsfile
+  * Jenkinsfile, which calls ``testProject()`` with the project name (e.g. https://github.com/Kinto/kinto-integration-tests/blob/f61f4db94eeaf7486e8c329c6294ad9b71585611/Jenkinsfile
   * run file, which pulls and runs the Docker image (e.g. https://github.com/Kinto/kinto-integration-tests/blob/f61f4db94eeaf7486e8c329c6294ad9b71585611/run)
   * Dockerfile which sets up the environment, and runs the tests (e.g. https://github.com/Kinto/kinto-integration-tests/blob/f61f4db94eeaf7486e8c329c6294ad9b71585611/Dockerfile)
 3. Create a Jenkins job with the following syntax: **project.test_env** (e.g. **kinto.stage**), using the ``Pipeline from SCM`` option, and pointing to the Jenkinsfile
 4. Once your project is set up properly (runs, and hopefully passes):
-5. File a bug (example: `bug 1384404 <https://bugzilla.mozilla.org/show_bug.cgi?id=1384404>`_, in the Cloud Services product, FXTest-infra component, requesting Ops enable your jobs in their pipeline
+5. File a bug (example: `bug 1384404 <https://bugzilla.mozilla.org/show_bug.cgi?id=1384404>`_), in the Cloud Services product, FXTest-infra component, requesting Ops enable your jobs in their pipeline
 6. Next, from Ops' side, there is a `qaTest.groovy file <https://github.com/mozilla-services/cloudops-deployment/blob/c6a09fa1a62d1cddf3a3b560e92aca55a497d0d4/libs/pipeline/vars/qaTest.groovy#L13>`_ which authenticates with QA (prod) Jenkins, and will run /job/${project}.${envName}
