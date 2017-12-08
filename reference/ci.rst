@@ -51,14 +51,14 @@ Plugin Addition
 
 Ops-QA Pipeline
 ---------------
-The current flow for a project integrated into the Cloud Ops deploy pipeline is as follows:
+**The current flow for a project integrated into the Cloud Ops deploy pipeline is as follows:**
 
 1. A tagged or pushed build from dev deploys to staging
 2. Cloud Ops' deploy-pipeline script calls test_stage, which remotely runs the project's corresponding staging ("stage") test job, e.g. kinto.stage, in our Jenkins instance
 3. If our tests pass (returning exit code/return status of "0"), and after manual confirmation from Ops, the build gets promoted and pushed to production
 4. Now, Cloud Ops' deploy-pipeline script calls check_production, which remotely runs the project's corresponding production ("prod") job, e.g. kinto.prod, in our Jenkins instance
 
-Getting a project's tests into the deploy pipeline:
+**Getting a project's tests into the deploy pipeline:**
 
 1. Add/edit the project and its test repositories into `Service Book <https://servicebook.stage.mozaws.net/>`_
 2. Your test repo should have the following:
