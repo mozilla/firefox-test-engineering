@@ -63,6 +63,6 @@ Ops-QA Pipeline
 
 1. A suggestion is to have your project build and run tests in Jenkins, from a Docker image
 2. Create a Jenkins job with the following syntax: **project.test_env** (e.g. **kinto.stage**), using the ``Pipeline from SCM`` option, and pointing to the Jenkinsfile
-3. Once your project is set up properly (runs, and hopefully passes):
+3. Once your project runs and passes in Jenkins:
 4. File a bug (example: `bug 1384404 <https://bugzilla.mozilla.org/show_bug.cgi?id=1384404>`_), in the Cloud Services product, FXTest-infra component, requesting Ops enable your jobs in their pipeline
 5. Next, from Ops' side, there is a `qaTest.groovy file <https://github.com/mozilla-services/cloudops-deployment/blob/c6a09fa1a62d1cddf3a3b560e92aca55a497d0d4/libs/pipeline/vars/qaTest.groovy#L13>`_ which authenticates with QA (prod) Jenkins, and will run /job/${project}.${envName}
