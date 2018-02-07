@@ -57,7 +57,6 @@ Ops-QA Pipeline
 1. A tagged or pushed build from dev deploys to staging
 2. Cloud Ops' deploy-pipeline script calls ``qaTest("kinto", "stage")``, which remotely runs the project's corresponding staging ("**stage**") test job, e.g. ``kinto.stage``, in our Jenkins instance
 3. If our tests pass (returning exit code/return status of "0"), and after manual confirmation from Ops, the build gets promoted and pushed to production
-4. Now, Cloud Ops' deploy-pipeline script calls ``check_production()``, which remotely runs the project's corresponding production ("**prod**") job, e.g. ``kinto.prod``, in our Jenkins instance
 
 **Getting a project's tests into the deploy pipeline:**
 
@@ -65,4 +64,4 @@ Ops-QA Pipeline
 2. Create a Jenkins job with the following syntax: **project.test_env** (e.g. **kinto.stage**), using the ``Pipeline from SCM`` option, and pointing to the Jenkinsfile
 3. Once your project runs and passes in Jenkins:
 4. File a bug (example: `bug 1384404 <https://bugzilla.mozilla.org/show_bug.cgi?id=1384404>`_), in the most-appropriate component for your project, under the Cloud Services product, requesting Ops enable your jobs in their pipeline
-5. Next, from Ops' side, there is a `qaTest.groovy file <https://github.com/mozilla-services/cloudops-deployment/blob/c6a09fa1a62d1cddf3a3b560e92aca55a497d0d4/libs/pipeline/vars/qaTest.groovy#L13>`_ which calls https://github.com/mozilla-services/cloudops-deployment/blob/9626ef442346913733b2f14e11d490750d481411/bin/run_jenkins_job, which, in turn, authenticates with QA (prod) Jenkins, and will run /job/${project}.${envName}
+5. Next, from Ops' side, there is a `qaTest.groovy file <https://github.com/mozilla-services/cloudops-deployment/blob/c6a09fa1a62d1cddf3a3b560e92aca55a497d0d4/libs/pipeline/vars/qaTest.groovy#L13>`_ which calls `run_jenkins_job <https://github.com/mozilla-services/cloudops-deployment/blob/9626ef442346913733b2f14e11d490750d481411/bin/run_jenkins_job>`_, which, in turn, authenticates with QA (prod) Jenkins, and will run /job/${project}.${envName}
