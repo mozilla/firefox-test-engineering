@@ -65,3 +65,8 @@ Ops-QA Pipeline
 3. Once your project runs and passes in Jenkins:
 4. File a bug (example: `bug 1384404 <https://bugzilla.mozilla.org/show_bug.cgi?id=1384404>`_), in the most-appropriate component for your project, under the Cloud Services product, requesting Ops enable your jobs in their pipeline
 5. Next, from Ops' side, there is a `qaTest.groovy file <https://github.com/mozilla-services/cloudops-deployment/blob/c6a09fa1a62d1cddf3a3b560e92aca55a497d0d4/libs/pipeline/vars/qaTest.groovy#L13>`_ which calls `run_jenkins_job <https://github.com/mozilla-services/cloudops-deployment/blob/9626ef442346913733b2f14e11d490750d481411/bin/run_jenkins_job>`_, which, in turn, authenticates with QA (prod) Jenkins, and will run /job/${project}.${envName}
+
+Build notifications
+-------------------
+
+Notifications can differ between projects, however typically whenever a build fails a notification is sent to the `fte-ci <https://groups.google.com/a/mozilla.com/forum/#!forum/fte-ci>`_ group. When the result of a build changes, a notification is sent to the #fx-test-alerts IRC channel on irc.mozilla.org.
