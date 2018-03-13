@@ -9,6 +9,7 @@ This is where all the useful information goes that doesn't fit into the
 
    git_github
    python-style
+   conventions
    testing
    activedata
    treeherder
