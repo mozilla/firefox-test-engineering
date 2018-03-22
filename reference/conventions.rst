@@ -21,7 +21,7 @@ Examples:
 
 pipenv
 ~~~~~~
-**Purpose:** Blurb about why and how we use `pipenv <https://docs.pipenv.org/>`_.
+**Purpose:** We use `pipenv <https://docs.pipenv.org/>`_ 
 
 Typically, we:
 
@@ -45,10 +45,13 @@ Examples:
 
 For both of these files, see the official docs at https://docs.docker.com/engine/reference/builder
 
+Jenkins
+-------
+
 Linting
 -------
 **Purpose:** `PEP8 <https://www.python.org/dev/peps/pep-0008/>`_ and `flake8 <http://flake8.pycqa.org>`_.
 
-.gitignore
-----------
+Travis CI
+---------
 
