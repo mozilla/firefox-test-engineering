@@ -37,6 +37,8 @@ Docker
 ------
 **Purpose:** We use `Docker <https://www.docker.com>`_ to help ensure consistent, portable builds, with dependency/environment control.
 
+In most cases, we build our Docker image directly from its **master** branch in GitHub, in any of the following: Travis CI, Circle CI, and Jenkins.
+
 Typically, we use two (2) main files, for Docker:
 
 #. Dockerfile
