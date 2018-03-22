@@ -16,9 +16,18 @@ pyup.io
 ~~~~~~~
 **Purpose:**
 
+Examples:
+#. Example one
+#. Example two
+
 pipenv
 ~~~~~~
 **Purpose:** Blurb about why and how we use `pipenv <https://docs.pipenv.org/>`_.
+
+Typically, we:
+#. Pin pipenv
+#. Install directly from the Pipfile
+#. Ignore generating and using the Pipfile.lock
 
 Docker
 ------
@@ -28,6 +37,10 @@ We use typically two (2) main files, for Docker:
 
 #. Dockerfile
 #. .dockerignore
+
+Examples:
+#. Example one
+#. Example two
 
 For both of these files, see the official docs at https://docs.docker.com/engine/reference/builder
 
