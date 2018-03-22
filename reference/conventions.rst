@@ -7,19 +7,24 @@ Their adoption aims to make automation easily repeatable, runnable, more reliabl
 
 Code Coverage
 -------------
-Blurb about code coverage (what/why/how?) -- particularly our current defacto, `Coveralls <https://coveralls.io>`_ -- goes here.
+**Purpose:** Blurb about code coverage (what/why/how?) -- particularly our current defacto, `Coveralls <https://coveralls.io>`_ -- goes here.
 
 Dependencies/Requirements
 -------------------------
 
 pyup.io
 ~~~~~~~
+**Purpose:**
+
+pipenv
+~~~~~~
+**Purpose:** Blurb about why and how we use `pipenv <https://docs.pipenv.org/>`_.
 
 Docker
 ------
-We use `Docker <https://www.docker.com>`_ to help ensure consistent, portable builds, with dependency/environment control.
+**Purpose:** We use `Docker <https://www.docker.com>`_ to help ensure consistent, portable builds, with dependency/environment control.
 
-There are typically two files associated with our use of Docker:
+We use typically two (2) main files, for Docker:
 
 #. Dockerfile
 #. .dockerignore
@@ -28,11 +33,7 @@ For both of these files, see the official docs at https://docs.docker.com/engine
 
 Linting
 -------
-PEP8 and `flake8 <http://flake8.pycqa.org>`_.
-
-pipenv
-------
-Blurb about why and how we use `pipenv <https://docs.pipenv.org/>`_.
+**Purpose:** PEP8 and `flake8 <http://flake8.pycqa.org>`_.
 
 .gitignore
 ----------
