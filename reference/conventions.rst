@@ -33,7 +33,7 @@ Docker
 ------
 **Purpose:** We use `Docker <https://www.docker.com>`_ to help ensure consistent, portable builds, with dependency/environment control.
 
-We use typically two (2) main files, for Docker:
+Typically, we use two (2) main files, for Docker:
 
 #. Dockerfile
 #. .dockerignore
