@@ -33,7 +33,7 @@ For both of these files, see the official docs at https://docs.docker.com/engine
 
 Linting
 -------
-**Purpose:** PEP8 and `flake8 <http://flake8.pycqa.org>`_.
+**Purpose:** `PEP8 <https://www.python.org/dev/peps/pep-0008/>`_ and `flake8 <http://flake8.pycqa.org>`_.
 
 .gitignore
 ----------
