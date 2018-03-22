@@ -50,8 +50,16 @@ Jenkins
 
 Linting
 -------
-**Purpose:** `PEP8 <https://www.python.org/dev/peps/pep-0008/>`_ and `flake8 <http://flake8.pycqa.org>`_.
+**Purpose:** 
+
+`PEP8 <https://www.python.org/dev/peps/pep-0008/>`_ and `flake8 <http://flake8.pycqa.org>`_.  Other considerations for specific linting are:
+
+#. `flake8-isort <https://pypi.python.org/pypi/flake8-isort>`_
+#. `flake8-docstrings <https://pypi.python.org/pypi/flake8-docstrings>`_
+#. `pylint <https://www.pylint.org/>`_
 
 Travis CI
 ---------
+**Purpose:**
 
+We use `Travis CI <https://www.travis-ci.org/>`_ for linting pull requests/commits.
