@@ -8,6 +8,9 @@ Their adoption aims to make automation easily repeatable, runnable, more reliabl
 Docker
 ------
 
+Linting
+-------
+
 pyup.io
 -------
 
