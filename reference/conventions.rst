@@ -1,7 +1,7 @@
 ==================
 Common Conventions
 ==================
-The following are some hopefully-helpful pointers to common conventions we're using across *most* automation projects.  Their adoption aims to make automation easily repeatable, runnable, more reliable, and with clearer output.  This list is neither exhaustive nor authoritative, but we strive to keep it up-to-date and as relevant as possible. 
+The following are some hopefully-helpful pointers to common conventions we're using across *most* automation projects.  Their adoption aims to make automation easily repeatable, runnable, more reliable, and with clearer output.  This list is neither exhaustive nor authoritative, but we strive to keep it as up-to-date and relevant as possible. 
 
 Code Coverage
 -------------
