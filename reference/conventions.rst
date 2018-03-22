@@ -14,9 +14,10 @@ Dependencies/Requirements
 
 pyup.io
 ~~~~~~~
-**Purpose:**
+**Purpose:** pyup helps us manage updating our dependencies and requirements.
 
 Examples:
+
 #. Example one
 #. Example two
 
@@ -25,6 +26,7 @@ pipenv
 **Purpose:** Blurb about why and how we use `pipenv <https://docs.pipenv.org/>`_.
 
 Typically, we:
+
 #. Pin pipenv
 #. Install directly from the Pipfile
 #. Ignore generating and using the Pipfile.lock
@@ -39,6 +41,7 @@ We use typically two (2) main files, for Docker:
 #. .dockerignore
 
 Examples:
+
 #. Example one
 #. Example two
 
@@ -50,3 +53,4 @@ Linting
 
 .gitignore
 ----------
+
