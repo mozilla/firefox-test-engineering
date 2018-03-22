@@ -12,9 +12,9 @@ Code Coverage
 Dependencies/Requirements
 -------------------------
 
-pyup.io
+pyup
 ~~~~~~~
-**Purpose:** pyup helps us manage updating our dependencies and requirements.
+**Purpose:** `pyup.io <https://pyup.io>`_ helps us manage updating our dependencies and requirements.
 
 Examples:
 
