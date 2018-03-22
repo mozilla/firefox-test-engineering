@@ -17,7 +17,7 @@ pyup.io
 
 Docker
 ------
-We use Docker to help ensure consistent, portable builds, with dependency/environment control.
+We use `Docker <https://www.docker.com>`_ to help ensure consistent, portable builds, with dependency/environment control.
 
 There are typically two files associated with our use of Docker:
 
