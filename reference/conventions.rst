@@ -7,8 +7,8 @@ Code Coverage
 -------------
 **Purpose:** Blurb about code coverage (what/why/how?) -- particularly our current defacto, `Coveralls <https://coveralls.io>`_ -- goes here.
 
-Dependencies/Requirements
--------------------------
+Dependencies + Virtual Environments
+-----------------------------------
 
 pyup
 ~~~~~~~
@@ -28,6 +28,10 @@ Typically, we:
 #. Pin pipenv
 #. Install directly from the Pipfile
 #. Ignore generating and using the Pipfile.lock
+
+tox
+~~~
+**Purpose:** We use `tox <https://tox.readthedocs.io>`_ to run tests using multiple Python versions.
 
 Docker
 ------
