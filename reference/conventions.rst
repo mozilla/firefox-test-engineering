@@ -21,7 +21,7 @@ Examples:
 
 pipenv
 ~~~~~~
-**Purpose:** We use `pipenv <https://docs.pipenv.org/>`_ 
+**Purpose:** We use `pipenv <https://docs.pipenv.org/>`_ for managing virtual environments, and installing dependencies.
 
 Typically, we:
 
