@@ -49,7 +49,7 @@ Typically, we use two (2) main files, for Docker:
 
 For both of these files, see the official docs at https://docs.docker.com/engine/reference/builder
 
-Jenkins
+Jenkins/Jenkinsfile
 -------
 
 Linting
