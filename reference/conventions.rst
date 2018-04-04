@@ -14,10 +14,11 @@ pyup
 ~~~~~~~
 **Purpose:** `pyup.io <https://pyup.io>`_ helps us manage updating our dependencies and requirements.
 
-Examples:
+There are a few scenarios for its use:
 
-#. Example one
-#. Example two
+* Test suite lives in a separate directory within project repo
+  - `Example <https://github.com/mozilla-services/socorro/blob/3232f5e420fd7e5b80fa456c8f4c583b58ef1fbb/.pyup.yml>`_ from Socorro
+  - `Example <https://github.com/mozilla-services/go-bouncer/blob/86e9b428eee25e1d708935397da884f99f9be051/.pyup.yml>`_ from Bouncer
 
 pipenv
 ~~~~~~
