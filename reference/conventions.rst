@@ -20,7 +20,7 @@ There are a few scenarios for its use:
  - `Example <https://github.com/mozilla-services/socorro/blob/3232f5e420fd7e5b80fa456c8f4c583b58ef1fbb/.pyup.yml>`_ from Socorro
  - `Example <https://github.com/mozilla-services/go-bouncer/blob/86e9b428eee25e1d708935397da884f99f9be051/.pyup.yml>`_ from Bouncer
 * Self-contained test suite
- - `_Example <https://github.com/mozilla/mozillians-tests/blob/44f8d87560576549e801493dfb4069723d2d1506/.pyup.yml>`_ from Mozillians
+ - `Example <https://github.com/mozilla/mozillians-tests/blob/44f8d87560576549e801493dfb4069723d2d1506/.pyup.yml>`_ from Mozillians
 
 pipenv
 ~~~~~~
