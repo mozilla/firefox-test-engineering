@@ -51,6 +51,7 @@ For both of these files, see the official docs at https://docs.docker.com/engine
 
 Jenkins/Jenkinsfile
 -------
+We prefer tests running in Jenkins to use a Jenkinsfile (and Docker, as much as possible).
 
 Linting
 -------
