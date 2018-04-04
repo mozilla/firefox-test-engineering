@@ -30,7 +30,7 @@ Typically, we:
 
 #. Pin pipenv with pipenv.txt `(Example) <https://github.com/mozilla/stubattribution-tests/blob/730551c564833ce6488fb181f7fb08405928124e/pipenv.txt>`_
 #. Install directly from the Pipfile
-#. Ignore generating and using the Pipfile.lock `_(Example) <https://github.com/Kinto/kinto-integration-tests/blob/67239fe202a94fd9dd6aec664497f8c8343c7e46/Dockerfile#L5>`_
+#. Ignore generating and using the Pipfile.lock `(Example) <https://github.com/Kinto/kinto-integration-tests/blob/67239fe202a94fd9dd6aec664497f8c8343c7e46/Dockerfile#L5>`_
 
 tox
 ~~~
