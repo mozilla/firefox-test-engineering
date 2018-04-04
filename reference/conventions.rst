@@ -21,11 +21,11 @@ Examples:
 
 pipenv
 ~~~~~~
-**Purpose:** We use `pipenv <https://docs.pipenv.org/>`_ for managing virtual environments, and installing dependencies.
+**Purpose:** We use `pipenv <https://docs.pipenv.org/>`_ for managing virtual environments and installing dependencies.
 
 Typically, we:
 
-#. Pin pipenv
+#. Pin pipenv with pipenv.txt `(Example) <https://github.com/mozilla/stubattribution-tests/blob/730551c564833ce6488fb181f7fb08405928124e/pipenv.txt>`_
 #. Install directly from the Pipfile
 #. Ignore generating and using the Pipfile.lock
 
