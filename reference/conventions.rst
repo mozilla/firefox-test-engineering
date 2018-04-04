@@ -47,11 +47,6 @@ Typically, we use two (2) main files, for Docker:
 #. Dockerfile
 #. .dockerignore
 
-Examples:
-
-#. Example one
-#. Example two
-
 For both of these files, see the official docs at https://docs.docker.com/engine/reference/builder
 
 Jenkins
