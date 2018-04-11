@@ -36,7 +36,7 @@ Typically, we:
 
 tox
 ~~~
-**Purpose:** We use `tox <https://tox.readthedocs.io>`_ to run tests using multiple Python versions.
+**Purpose:** We use `tox <https://tox.readthedocs.io>`_ to run tests using multiple Python versions, as it automagically takes care of their respective virtual environments.
 
 Docker
 ------
