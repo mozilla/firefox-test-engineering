@@ -5,7 +5,7 @@ The following are some hopefully-helpful pointers to common conventions we're us
 
 Code Coverage
 -------------
-**Purpose:** Particularly relevant for our Python packages, quite a few of our projects have implemented `Coveralls <https://coveralls.io>`_ code-coverage/analysis tool.
+**Purpose:** Particularly relevant for our Python packages (which are used themselves in other testing projects and development repos), quite a few of our projects have implemented `Coveralls <https://coveralls.io>`_ code-coverage/analysis tool.
 
 For a real-world example of code removal that Coveralls caught, see https://github.com/mozilla/FoxPuppet/pull/162#issuecomment-373110700
 
