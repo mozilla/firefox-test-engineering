@@ -5,7 +5,9 @@ The following are some hopefully-helpful pointers to common conventions we're us
 
 Code Coverage
 -------------
-**Purpose:** Blurb about code coverage (what/why/how?) -- particularly our current defacto, `Coveralls <https://coveralls.io>`_ -- goes here.
+**Purpose:** Particularly relevant for our Python packages, quite a few of our projects have implemented `Coveralls <https://coveralls.io>`_ code-coverage/analysis tool.
+
+For a real-world example of code removal that Coveralls caught, see https://github.com/mozilla/FoxPuppet/pull/162#issuecomment-373110700
 
 Dependencies + Virtual Environments
 -----------------------------------
