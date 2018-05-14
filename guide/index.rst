@@ -34,4 +34,3 @@ Welcome to the New Employee Guide - hopefully you've already gone through, or ar
    :maxdepth: 2
 
    /reference/ci
-   fx-test-secrets
