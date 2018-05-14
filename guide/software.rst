@@ -9,7 +9,7 @@ The following information is a generic description of software or tools that
 you'll most likely need regardless of the project you work on.
 
 Operating Systems: Windows, Linux, or macOS/OS X?
--------------------------------------------
+--------------------------------------------------
 
 Generally speaking, automation and test tools need to run on the
 platforms that are being tested. Linux and Mac are often used as
