@@ -1,5 +1,6 @@
+#######
 Testing
-=======
+#######
 
 Testing is a very important part of the development process. It allows us to
 verify the functionality of our projects as well as judge the quality of our
@@ -15,8 +16,9 @@ At Mozilla, we have multiple ways of testing our code, including:
 - Manual testing, which is performed by a human and involves verifying features
   work as expected and exploratory tests.
 
-Assessing and managing risk
----------------------------
+***************************
+Assessing and Managing Risk
+***************************
 
 The end goal of testing is to manage the risk of something going wrong with
 your project. To this end, one of the first steps you should take is to assess
@@ -39,8 +41,9 @@ included Django application. For Node-based projects, they normally live in
 a directory named ``test`` or ``tests`` at the root of the repository. Refer to
 your project's documentation for more details.
 
-End-to-end tests
-----------------
+****************
+End-to-End Tests
+****************
 
 End-to-end tests simulates how your project will be used by users and verifies
 that it behaves as expected. This is most commonly applied to websites, where
@@ -51,8 +54,9 @@ the various :doc:`server environments <servers>`.
 
 .. _Selenium: http://www.seleniumhq.org/projects/webdriver/
 
-Manual testing
---------------
+**************
+Manual Testing
+**************
 
 Manual testing is good old-fashioned human-powered testing, where a living,
 breathing human uses your project and checks for any errors. Typically this is
@@ -62,14 +66,15 @@ exploratory testing.
 In addition to writing automated tests, you almost certainly should be manually
 testing any changes you make to a project.
 
-Testing tools
--------------
+*************
+Testing Tools
+*************
 
 The following is a non-exhaustive, possibly-out-of-date list of tools and
 libraries that may aid you in testing your projects.
 
 General
-^^^^^^^
+=======
 
 - Jenkins_ is a continuous integration server that builds and/or tests software
   projects continuously.
@@ -81,7 +86,7 @@ General
 .. _Travis CI: https://travis-ci.org/
 
 Python
-^^^^^^
+======
 
 - pytest_ is a highly recommended testing library for Python, with a great
   plugin ecosystem. Some common plugins we're using include
@@ -103,7 +108,7 @@ Python
 .. _pytest-bugzilla-notifier: https://pypi.python.org/pypi/pytest-bugzilla-notifier/0.1.2
 
 Node / JavaScript
-^^^^^^^^^^^^^^^^^
+=================
 
 - Mocha_ is a framework for running tests on node.js and in the browser.
 - Chai_ is an assertion library with many interfaces to accomodate different

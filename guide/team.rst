@@ -1,11 +1,13 @@
-About the Firefox Test Engineering team
-=======================================
+#######################################
+About the Firefox Test Engineering Team
+#######################################
 
 The Firefox Test Engineering team oversees the test automation, infrastructure, and manual testing for all of Firefox's services, sites, and apps that are external to the core browsers (and in some cases within the browsers as well).
 Our mission is to provide testing and tools to positively impact the quality of Mozilla websites and services.
 
+*****************
 How to Talk to Us
------------------
+*****************
 
 There are a few channels of communication for our group:
 
@@ -21,8 +23,9 @@ in return.
 
 .. _Firefox Test Engineering page on QMO: https://quality.mozilla.org/teams/test-engineering/
 
+**************
 Find a Mentor!
---------------
+**************
 
 It's also a good idea to find someone to mentor you as a new contributor.
 Having someone you can personally ask for help from is incredibly helpful in
@@ -33,8 +36,9 @@ coworker. If you're a volunteer, ask someone who works on the project you want
 to contribute to; if they cannot mentor you themselves, they should be able
 to direct you to someone who can.
 
+********************
 Turn on the Firehose
---------------------
+********************
 
 We are one team, part of a much bigger Mozilla project.  Here are some links:
 

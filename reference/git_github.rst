@@ -1,5 +1,6 @@
+##############
 Git and GitHub
-==============
+##############
 
 The sections below describe some Firefox Test Engineering best practices for
 using Git and GitHub. For more general information on Git here is a link to
@@ -7,22 +8,25 @@ using Git and GitHub. For more general information on Git here is a link to
 
 .. _Good Resources: https://help.github.com/articles/good-resources-for-learning-git-and-github/
 
+******
 Issues
-------
+******
 You can find an issue to work on by going to the
 `Firefox Test Engineering Dashboard`_. Any unclaimed Issue is available to you
 to work on. You can find out more about our process in the :doc:`../guide/index`.
 
 .. _Firefox Test Engineering Dashboard: https://mozilla.github.io/fxtest-dashboard/#/issues
 
+***************
 Commit Messages
----------------
+***************
 
 See `Tim Pope's blog post on Git commit messages
 <http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html>`_.
 
+****************
 Rebasing Commits
-----------------
+****************
 
 While projects vary in their opinions on whether merge commits should be
 avoided or not, it is generally a good idea to rebase a feature branch before
@@ -52,8 +56,9 @@ easier, and are recommended for all pull requests.
              sure no one else is using, such as feature branches on your
              personal fork.
 
+******************************************
 Owners and the Mozilla GitHub Organization
-------------------------------------------
+******************************************
 See the `GitHub page on wiki.mozilla.org <https://wiki.mozilla.org/Github>`_
 for information on the Mozilla organization on GitHub or anything that requires
 owner access for the organization.

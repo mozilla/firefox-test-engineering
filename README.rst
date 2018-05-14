@@ -1,5 +1,6 @@
+########################
 Firefox Test Engineering
-========================
+########################
 A tutorial on some of the basic things you'd want to know when
 contributing to `Firefox Test Engineering`_ at Mozilla.
 
@@ -13,8 +14,9 @@ request.
 .. _`Firefox Test Engineering`: https://wiki.mozilla.org/TestEngineering
 .. _`Webdev Bootcamp`: https://mozweb.readthedocs.io/
 
+****************
 Building locally
-----------------
+****************
 The instructions below assume you have Python and `pip`_ installed. It is also
 strongly recommended that you create and activate a `virtualenv`_ first.
 
@@ -34,9 +36,9 @@ changed.
 .. _pip: https://pip.pypa.io/
 .. _virtualenv: https://virtualenv.pypa.io/
 
+*********
 Licensing
----------
-
+*********
 Feel free to fork this repo or adapt its work for your own needs. All work
 is licensed under a `Creative Commons Attribution`_.
 
