@@ -1,5 +1,6 @@
+########################
 Firefox Test Engineering
-========================
+########################
 Hello! Welcome to `Firefox Test Engineering`_, an informal
 introduction to how to work with our group.
 

@@ -1,5 +1,6 @@
+##################
 Software and Tools
-==================
+##################
 
 The software you'll need to download and install on your computer in order to
 contribute varies between projects; please refer to the documentation for the
@@ -8,8 +9,9 @@ project you want to contribute to for details.
 The following information is a generic description of software or tools that
 you'll most likely need regardless of the project you work on.
 
+*************************************************
 Operating Systems: Windows, Linux, or macOS/OS X?
---------------------------------------------------
+*************************************************
 
 Generally speaking, automation and test tools need to run on the
 platforms that are being tested. Linux and Mac are often used as
@@ -26,8 +28,9 @@ installed using the `Homebrew`_ package manager.
 .. _Homebrew: http://brew.sh/
 
 
+***
 Git
----
+***
 
 Git_ is a distributed version control system. It tracks the history of changes
 we make to our code, which allows us to see how the code has changed over time.
@@ -55,8 +58,9 @@ control systems, you might enjoy stepping through some or all of this
 .. _Git: https://git-scm.com/
 
 
+******************
 Load-Testing Tools
-------------------
+******************
 `Molotov <https://github.com/loads/molotov>`_ is used for writing and running load tests.
 
 `Ardere <https://github.com/loads/ardere>`_ is another tool (which replaces `loads-broker <https://github.com/loads/loads-broker>`_) to run load tests at scale/distributed.

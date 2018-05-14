@@ -1,11 +1,13 @@
+#######################
 Test Automation Process
-=======================
+#######################
 
 While the details vary, there is a general framework for working on Firefox
 Test Engineering test automation projects. This document attempts to describe that process.
 
+*****************************
 Finding a Bug or GitHub Issue
------------------------------
+*****************************
 
 The first step is finding a good bug or GitHub Issue to work on.
 
@@ -23,8 +25,9 @@ The first step is finding a good bug or GitHub Issue to work on.
 .. _Firefox Test Engineering Dashboard: https://mozilla.github.io/fxtest-dashboard/#/issues
 .. _Bugs Ahoy:  https://www.joshmatthews.net/bugsahoy/
 
+************************
 Working on the Bug/Issue
-------------------------
+************************
 After claiming a Bug/Issue, you will submit your pull request with your work in a GitHub feature branch.
 
 Any mentors or project owners assigned to it will review your work and give constructive feedback and instructions for any changes that need to be made.  After the pull request is completed to satisfaction it will be merged into the project code.
@@ -33,7 +36,7 @@ The Bug/Issue will be resolved and closed after a successful code merge.
 
 
 Git and GitHub
-^^^^^^^^^^^^^^
+==============
 
 For projects using Git and GitHub, the process can be explained in more detail:
 
@@ -71,12 +74,13 @@ For projects using Git and GitHub, the process can be explained in more detail:
 .. _running test automation: https://developer.mozilla.org/en-US/docs/Mozilla/QA/Running_Web_QA_automated_tests
 
 
+******
 Mobile
-------
+******
 Mobile platforms such as iOS and Android are also an important part of our testing process. Testing is done on mobile platforms, and there are also mobile-specific tests.
 
 iOS
-^^^
+===
 Currently we use Apple's XCUITest framework in Swift. The test can be written and executed on
 Apple's XCode App, and you can see some of our `examples in the Firefox for iOS`_ repository. Some of the older
 Tests are in `KIFTest framework`_, but since they use undocumented Apple APIs, and XCUITest framework has been
@@ -97,15 +101,16 @@ You can learn more about basics of Swift and XCUITest from below websites:
 .. _UI Testing Cheat Sheet and Examples: http://masilotti.com/ui-testing-cheat-sheet/
 
 Android
-^^^^^^^
+=======
 A few of our Android mobile test-automation projects (particularly those written with Selenium WebDriver) use
 `Appium <http://appium.io/>`_.  For Firefox for Android testing automation that does not involve the testing
 of GeckoView, there is a `proof-of-concept test environment`_ using Appium.
 
 .. _proof-of-concept test environment: https://github.com/npark-mozilla/CG_Mobile_Test
 
-Next steps
-----------
+**********
+Next Steps
+**********
 
 At this point you should have all the information and tools you need to make
 your first contribution to Mozilla! Once you've submitted your work and gotten

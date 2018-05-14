@@ -1,18 +1,20 @@
+#################
 Finding a Project
-=================
+#################
 
 Before you can contribute to Mozilla, you need to find a project that you're
 interested in contributing to. We currently maintain a `list of
 projects`_ on Service Book.
 
-You may also browse all of the open GitHub Issues for our projects. The `Firefox Test Engineering Dashboard`_ lists 
-open Issues, just make sure to find one that no one else is working on. 
+You may also browse all of the open GitHub Issues for our projects. The `Firefox Test Engineering Dashboard`_ lists
+open Issues, just make sure to find one that no one else is working on.
 
 .. _list of projects: https://servicebook.stage.mozaws.net/info
 .. _Firefox Test Engineering Dashboard: http://mozilla.github.io/fxtest-dashboard/#/issues
 
-Getting set up
---------------
+**************
+Getting Set Up
+**************
 
 Once you've identified the project you want to work on, you should get the
 test automation running locally. All projects have (or should have) a README
@@ -21,8 +23,9 @@ documentation that does. If you haven't already, you will want to review the `Ne
 
 .. _New Contributor Guide:  http://firefox-test-engineering.readthedocs.io/en/latest/guide/index.html
 
-Find a mentor
--------------
+*************
+Find a Mentor
+*************
 
 You may also find it useful to find someone who is working on or responsible
 for the project you want to contribute to and asking if they can help you find
@@ -31,8 +34,9 @@ speaking, the project page should have this information. If it
 doesn't, try looking through the commit log of the source code to see
 who has been writing code for the project recently.
 
-How to contribute
------------------
+*****************
+How to Contribute
+*****************
 
 Once you're set up to work on a project, you'll have to find a task to work on
 and get coding! Each project should have some information on where their tasks

@@ -1,12 +1,14 @@
+##################
 Python Style Guide
-==================
+##################
 
 This document is a brief set of guidelines for writing Python code at
 Mozilla. Individual projects may override these rules; make sure you
 know the standards for your project!
 
+******************
 General Guidelines
-------------------
+******************
 - Follow `PEP 8`_.
 - Check your code against a linting tool. flake8_ is highly recommended for
   this.
@@ -14,8 +16,9 @@ General Guidelines
 .. _PEP 8: https://www.python.org/dev/peps/pep-0008/
 .. _flake8: https://flake8.readthedocs.io/
 
+*****************
 Import Statements
------------------
+*****************
 
 We expand on `PEP 8`_'s suggestions for import statements. These greatly improve
 one's ability to ascertain what is and isn't available in a given file.
@@ -100,8 +103,9 @@ Good::
     def my_code():
         foo.you()  # oh you...
 
-Whitespace matters
-------------------
+******************
+Whitespace Matters
+******************
 
 * Use 4 spaces, not 2---it increases legibility considerably.
 * Never use tabs---history has shown that we cannot handle them.

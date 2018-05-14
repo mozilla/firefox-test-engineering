@@ -1,5 +1,6 @@
+#########
 Resources
-=========
+#########
 
 Useful resources for further reading and learning.
 

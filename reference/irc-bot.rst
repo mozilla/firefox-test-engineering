@@ -1,5 +1,6 @@
+#######
 IRC Bot
-=======
+#######
 
 We have a chat bot in our IRC channel providing useful features such as
 notifications or new issues, pull requests and pushes to our GitHub

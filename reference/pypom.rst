@@ -1,5 +1,6 @@
+#####
 PyPOM
-=====
+#####
 
 PyPOM, or Python Page Object Model, is a Python library that provides a base
 page object model for use with Selenium functional tests.

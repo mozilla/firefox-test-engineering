@@ -1,5 +1,6 @@
+#####################
 New Contributor Guide
-=====================
+#####################
 
 First things first: Welcome to Mozilla! We're glad to have you here, whether
 you're considering volunteering as a contributor or are employed by Mozilla.
@@ -25,8 +26,9 @@ Let's get started!
    accounts
    software
 
+##################
 New Employee Guide
-==================
+##################
 
 Welcome to the New Employee Guide - hopefully you've already gone through, or are familiar with tools, accounts, processes, etc. in our New Contributor Guide.  An additional resource to familiarize yourself with is our `Firefox Test Engineering <https://mana.mozilla.org/wiki/display/TestEngineering>`_ space on Mana.
 

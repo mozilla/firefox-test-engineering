@@ -1,5 +1,6 @@
+##########################
 Test Results in ActiveData
-==========================
+##########################
 Our automated test results are publicly accessible via
 `ActiveData <https://wiki.mozilla.org/Auto-tools/Projects/ActiveData>`_, which
 allows us to determine areas the need attention. For example, we might want to
@@ -12,8 +13,9 @@ into ActiveData we need to generate structured logs and upload them to an
 Amazon S3 bucket. ActiveData scans this bucket, ingests the logs, and the
 results are then available for querying.
 
-Structured logs
----------------
+***************
+Structured Logs
+***************
 Many test suites at Mozilla use
 `mozlog <http://mozbase.readthedocs.io/en/latest/mozlog.html>`_ to generate
 structured logs. As ActiveData is already familiar with this format, it makes
@@ -36,8 +38,9 @@ ActiveData will be able to process. Here's an example of the output::
   {"status": "PASS", "pid": 92739, "test": "test_foo.py::test_bar", "action": "test_end", "component": "pytest", "source": "pytest", "time": 1489585072219, "thread": "MainThread"}
   {"pid": 92739, "action": "suite_end", "component": "pytest", "source": "pytest", "time": 1489585072594, "thread": "MainThread"}
 
+********
 Metadata
---------
+********
 In order to add context to the results we use the
 `pytest-metadata <https://pypi.python.org/pypi/pytest-metadata/>`_ plugin. This
 adds details on the platform, Python binary, pytest packages, and pytest
@@ -46,16 +49,17 @@ several continuous integrations servers, and we use this to associate results
 with a specific application under test. All of this data is added to the
 ``run_info`` in the ``suite_start`` message within the structured log.
 
+*******************
 Querying ActiveData
--------------------
+*******************
 You can use the
 `ActiveData Query Tool <https://activedata.allizom.org/tools/query.html>`_ to
 run queries and see the responses from ActiveData. The
 `getting started <https://github.com/klahnakoski/ActiveData/blob/dev/docs/GettingStarted.md>`_
 guide is a good place to start, however let's explore a couple of examples.
 
-Test durations
-~~~~~~~~~~~~~~
+Test Durations
+==============
 The following query will return the 90th percentile for test duration, grouped
 by test name and job:
 
@@ -78,8 +82,8 @@ longer against different environments, or across the board. This might
 highlight tests that are doing too much, or at least slowing down the feedback
 loop.
 
-Failing tests
-~~~~~~~~~~~~~
+Failing Tests
+=============
 The following query will return the total number of times each test has failed.
 
 .. code:: json
@@ -96,8 +100,9 @@ Note that this doesn't distinguish between the various outcomes that evaluate
 as a failure, so this is just wherever the outcome does not match the
 expectation.
 
-Plotting results
-----------------
+****************
+Plotting Results
+****************
 A useful way to visualize the results from ActiveData is to plot them on a
 chart. This can be achieved using a `Jupyter Notebook <https://jupyter.org/>`_,
 with pandas, NumPy, and matplotlib. If you have `Docker <http://docker.com/>`_
@@ -187,8 +192,9 @@ tweak the query and DataFrame, or try different types of charts.
 .. image:: ../images/outcomes.png
    :alt: Test failures by outcome in the past two weeks
 
-Known limitations
------------------
+*****************
+Known Limitations
+*****************
 Unfortunately, mozlog does not currently support Python 3. This means that any
 suite that produces structured logs for consumption by ActiveData is required
 to run on legacy Python.
